@@ -1,18 +1,256 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>en/sitemap.xml</loc>
-		
-	   	<lastmod>2017-11-01T18:10:14+01:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>de/sitemap.xml</loc>
-		
-	   	<lastmod>2017-12-01T14:40:32+01:00</lastmod>
-		
-	</sitemap>
-	
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/article/</loc>
+    <lastmod>2020-07-19T00:21:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/</loc>
+    <lastmod>2020-07-19T00:21:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-07-19T00:21:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/clem/</loc>
+    <lastmod>2020-07-19T00:21:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-07-19T00:21:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/article/htb/</loc>
+    <lastmod>2020-07-19T00:21:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/hackthebox/</loc>
+    <lastmod>2020-07-19T00:21:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/htb/</loc>
+    <lastmod>2020-07-19T00:21:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/htb/</loc>
+    <lastmod>2020-07-19T00:21:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/intro/</loc>
+    <lastmod>2020-07-19T00:21:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-07-19T00:21:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/discord/</loc>
+    <lastmod>2017-11-01T18:10:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/lednerb/</loc>
+    <lastmod>2017-11-01T18:10:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/say-thanks/</loc>
+    <lastmod>2017-11-01T18:10:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/support/</loc>
+    <lastmod>2017-11-01T18:10:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/article/support-and-discussions/</loc>
+    <lastmod>2017-11-01T18:10:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/gallery/</loc>
+    <lastmod>2017-11-01T18:01:26+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/eilean-donan-castle/</loc>
+    <lastmod>2017-11-01T18:01:26+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/glennfinnan-viaduct/</loc>
+    <lastmod>2017-11-01T18:01:26+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/holidays/</loc>
+    <lastmod>2017-11-01T18:01:26+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/gallery/my-trip-to-scotland/</loc>
+    <lastmod>2017-11-01T18:01:26+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/scotland/</loc>
+    <lastmod>2017-11-01T18:01:26+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/travelling/</loc>
+    <lastmod>2017-11-01T18:01:26+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/kilez-more/</loc>
+    <lastmod>2017-11-01T16:23:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/video/kilez-more-leben-und-tod-des-imperialismus/</loc>
+    <lastmod>2017-11-01T16:23:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/music/</loc>
+    <lastmod>2017-11-01T16:23:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/politics/</loc>
+    <lastmod>2017-11-01T16:23:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/video/</loc>
+    <lastmod>2017-11-01T16:23:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/video/</loc>
+    <lastmod>2017-11-01T16:23:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/audio/</loc>
+    <lastmod>2017-11-01T16:12:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/audio/kilez-more-new-world-order/</loc>
+    <lastmod>2017-11-01T16:12:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/truth-rap/</loc>
+    <lastmod>2017-11-01T16:12:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/page/about-bilberry/</loc>
+    <lastmod>2017-11-01T13:18:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/page/</loc>
+    <lastmod>2017-11-01T13:18:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/page/github/</loc>
+    <lastmod>2017-11-01T13:17:56+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/link/duckduckgo/</loc>
+    <lastmod>2017-11-01T13:05:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/link/</loc>
+    <lastmod>2017-11-01T13:05:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/privacy/</loc>
+    <lastmod>2017-11-01T13:05:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/search-engine/</loc>
+    <lastmod>2017-11-01T13:05:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/edward-snowden/</loc>
+    <lastmod>2017-11-01T13:01:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/quote/edward-snowden-privacy/</loc>
+    <lastmod>2017-11-01T13:01:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/free-speech/</loc>
+    <lastmod>2017-11-01T13:01:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/quote/</loc>
+    <lastmod>2017-11-01T13:01:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/society/</loc>
+    <lastmod>2017-11-01T13:01:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/bilberry-theme/</loc>
+    <lastmod>2017-11-01T09:31:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/code/</loc>
+    <lastmod>2017-11-01T09:31:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/code/</loc>
+    <lastmod>2017-11-01T09:31:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2017-11-01T09:31:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/code/installing-bilberry-theme/</loc>
+    <lastmod>2017-11-01T09:31:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/tutorials/</loc>
+    <lastmod>2017-11-01T09:31:27+01:00</lastmod>
+  </url>
+  
+</urlset>

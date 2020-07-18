@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My cool new Blog</title>
+    <title>Tags on Clem9669 Blog</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on My cool new Blog</description>
+    <description>Recent content in Tags on Clem9669 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 01 Nov 2017 18:10:14 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2020 00:21:59 +0200</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>hackthebox</title>
+      <link>/tags/hackthebox/</link>
+      <pubDate>Sun, 19 Jul 2020 00:21:59 +0200</pubDate>
+      
+      <guid>/tags/hackthebox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTB</title>
+      <link>/tags/htb/</link>
+      <pubDate>Sun, 19 Jul 2020 00:21:59 +0200</pubDate>
+      
+      <guid>/tags/htb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>intro</title>
+      <link>/tags/intro/</link>
+      <pubDate>Sun, 19 Jul 2020 00:21:59 +0200</pubDate>
+      
+      <guid>/tags/intro/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Discord</title>
