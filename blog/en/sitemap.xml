@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/article/</loc>
+    <lastmod>2017-11-01T18:10:14+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/article/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/article/"
+                />
+  </url>
+  
+  <url>
+    <loc>/author/</loc>
+    <lastmod>2017-11-01T18:10:14+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/author/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/author/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/discord/</loc>
+    <lastmod>2017-11-01T18:10:14+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/tags/discord/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/discord/"
+                />
+  </url>
+  
+  <url>
+    <loc>/author/lednerb/</loc>
+    <lastmod>2017-11-01T18:10:14+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/author/lednerb/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/author/lednerb/"
+                />
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2017-11-01T18:10:14+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/say-thanks/</loc>
+    <lastmod>2017-11-01T18:10:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/support/</loc>
+    <lastmod>2017-11-01T18:10:14+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/tags/support/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/support/"
+                />
+  </url>
+  
+  <url>
+    <loc>/article/support-and-discussions/</loc>
+    <lastmod>2017-11-01T18:10:14+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/article/support-and-discussions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/article/support-and-discussions/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2017-11-01T18:10:14+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/gallery/</loc>
+    <lastmod>2017-11-01T18:01:26+01:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/gallery/"
+                />
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2017-11-01T18:01:26+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/eilean-donan-castle/</loc>
+    <lastmod>2017-11-01T18:01:26+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/tags/eilean-donan-castle/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/eilean-donan-castle/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/glennfinnan-viaduct/</loc>
+    <lastmod>2017-11-01T18:01:26+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/holidays/</loc>
+    <lastmod>2017-11-01T18:01:26+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/gallery/my-trip-to-scotland/</loc>
+    <lastmod>2017-11-01T18:01:26+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/gallery/my-trip-to-scotland/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/gallery/my-trip-to-scotland/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/scotland/</loc>
+    <lastmod>2017-11-01T18:01:26+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/travelling/</loc>
+    <lastmod>2017-11-01T18:01:26+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/kilez-more/</loc>
+    <lastmod>2017-11-01T16:23:40+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/tags/kilez-more/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/kilez-more/"
+                />
+  </url>
+  
+  <url>
+    <loc>/video/kilez-more-leben-und-tod-des-imperialismus/</loc>
+    <lastmod>2017-11-01T16:23:40+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/video/kilez-more-leben-und-tod-des-imperialismus/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/video/kilez-more-leben-und-tod-des-imperialismus/"
+                />
+  </url>
+  
+  <url>
+    <loc>/categories/music/</loc>
+    <lastmod>2017-11-01T16:23:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/politics/</loc>
+    <lastmod>2017-11-01T16:23:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/video/</loc>
+    <lastmod>2017-11-01T16:23:40+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/categories/video/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/video/"
+                />
+  </url>
+  
+  <url>
+    <loc>/video/</loc>
+    <lastmod>2017-11-01T16:23:40+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/video/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/video/"
+                />
+  </url>
+  
+  <url>
+    <loc>/audio/</loc>
+    <lastmod>2017-11-01T16:12:47+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/audio/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/audio/"
+                />
+  </url>
+  
+  <url>
+    <loc>/audio/kilez-more-new-world-order/</loc>
+    <lastmod>2017-11-01T16:12:47+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/audio/kilez-more-new-world-order/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/audio/kilez-more-new-world-order/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/truth-rap/</loc>
+    <lastmod>2017-11-01T16:12:47+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/tags/truth-rap/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/truth-rap/"
+                />
+  </url>
+  
+  <url>
+    <loc>/page/about-bilberry/</loc>
+    <lastmod>2017-11-01T13:18:45+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/page/about-bilberry/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/page/about-bilberry/"
+                />
+  </url>
+  
+  <url>
+    <loc>/page/</loc>
+    <lastmod>2017-11-01T13:18:45+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/page/"
+                />
+  </url>
+  
+  <url>
+    <loc>/page/github/</loc>
+    <lastmod>2017-11-01T13:17:56+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/page/github/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/page/github/"
+                />
+  </url>
+  
+  <url>
+    <loc>/link/duckduckgo/</loc>
+    <lastmod>2017-11-01T13:05:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/link/</loc>
+    <lastmod>2017-11-01T13:05:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/privacy/</loc>
+    <lastmod>2017-11-01T13:05:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/search-engine/</loc>
+    <lastmod>2017-11-01T13:05:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/edward-snowden/</loc>
+    <lastmod>2017-11-01T13:01:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/quote/edward-snowden-privacy/</loc>
+    <lastmod>2017-11-01T13:01:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/free-speech/</loc>
+    <lastmod>2017-11-01T13:01:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/quote/</loc>
+    <lastmod>2017-11-01T13:01:14+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/quote/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/quote/"
+                />
+  </url>
+  
+  <url>
+    <loc>/categories/society/</loc>
+    <lastmod>2017-11-01T13:01:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/bilberry-theme/</loc>
+    <lastmod>2017-11-01T09:31:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/code/</loc>
+    <lastmod>2017-11-01T09:31:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/code/</loc>
+    <lastmod>2017-11-01T09:31:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2017-11-01T09:31:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/code/installing-bilberry-theme/</loc>
+    <lastmod>2017-11-01T09:31:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/tutorials/</loc>
+    <lastmod>2017-11-01T09:31:27+01:00</lastmod>
+  </url>
+  
+</urlset>

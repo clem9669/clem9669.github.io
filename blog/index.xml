@@ -1,0 +1,76 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My cool new Blog</title>
+    <link>/</link>
+    <description>Recent content on My cool new Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 01 Nov 2017 18:10:14 +0100</lastBuildDate>
+    
+        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Articles</title>
+      <link>/article/</link>
+      <pubDate>Wed, 01 Nov 2017 18:10:14 +0100</pubDate>
+      
+      <guid>/article/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/gallery/</link>
+      <pubDate>Wed, 01 Nov 2017 18:01:26 +0100</pubDate>
+      
+      <guid>/gallery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Videos</title>
+      <link>/video/</link>
+      <pubDate>Wed, 01 Nov 2017 16:23:40 +0100</pubDate>
+      
+      <guid>/video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Audios</title>
+      <link>/audio/</link>
+      <pubDate>Wed, 01 Nov 2017 16:12:47 +0100</pubDate>
+      
+      <guid>/audio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>/link/</link>
+      <pubDate>Wed, 01 Nov 2017 13:05:27 +0100</pubDate>
+      
+      <guid>/link/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quotes</title>
+      <link>/quote/</link>
+      <pubDate>Wed, 01 Nov 2017 13:01:14 +0100</pubDate>
+      
+      <guid>/quote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Codes</title>
+      <link>/code/</link>
+      <pubDate>Wed, 01 Nov 2017 09:31:27 +0100</pubDate>
+      
+      <guid>/code/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
