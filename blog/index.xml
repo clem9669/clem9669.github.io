@@ -1,74 +1,74 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Clem9669 Blog</title>
-    <link>/</link>
+    <link>https://clem9669.github.io/blog/</link>
     <description>Recent content on Clem9669 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 19 Jul 2020 00:21:59 +0200</lastBuildDate>
     
-        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://clem9669.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Articles</title>
-      <link>/article/</link>
+      <link>https://clem9669.github.io/blog/article/</link>
       <pubDate>Sun, 19 Jul 2020 00:21:59 +0200</pubDate>
       
-      <guid>/article/</guid>
+      <guid>https://clem9669.github.io/blog/article/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/gallery/</link>
+      <link>https://clem9669.github.io/blog/gallery/</link>
       <pubDate>Wed, 01 Nov 2017 18:01:26 +0100</pubDate>
       
-      <guid>/gallery/</guid>
+      <guid>https://clem9669.github.io/blog/gallery/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Videos</title>
-      <link>/video/</link>
+      <link>https://clem9669.github.io/blog/video/</link>
       <pubDate>Wed, 01 Nov 2017 16:23:40 +0100</pubDate>
       
-      <guid>/video/</guid>
+      <guid>https://clem9669.github.io/blog/video/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Audios</title>
-      <link>/audio/</link>
+      <link>https://clem9669.github.io/blog/audio/</link>
       <pubDate>Wed, 01 Nov 2017 16:12:47 +0100</pubDate>
       
-      <guid>/audio/</guid>
+      <guid>https://clem9669.github.io/blog/audio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Links</title>
-      <link>/link/</link>
+      <link>https://clem9669.github.io/blog/link/</link>
       <pubDate>Wed, 01 Nov 2017 13:05:27 +0100</pubDate>
       
-      <guid>/link/</guid>
+      <guid>https://clem9669.github.io/blog/link/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Quotes</title>
-      <link>/quote/</link>
+      <link>https://clem9669.github.io/blog/quote/</link>
       <pubDate>Wed, 01 Nov 2017 13:01:14 +0100</pubDate>
       
-      <guid>/quote/</guid>
+      <guid>https://clem9669.github.io/blog/quote/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Codes</title>
-      <link>/code/</link>
+      <link>https://clem9669.github.io/blog/code/</link>
       <pubDate>Wed, 01 Nov 2017 09:31:27 +0100</pubDate>
       
-      <guid>/code/</guid>
+      <guid>https://clem9669.github.io/blog/code/</guid>
       <description></description>
     </item>
     

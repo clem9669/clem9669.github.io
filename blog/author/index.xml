@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Author on Clem9669 Blog</title>
-    <link>/author/</link>
+    <link>https://clem9669.github.io/blog/author/</link>
     <description>Recent content in Author on Clem9669 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 19 Jul 2020 00:21:59 +0200</lastBuildDate>
     
-	<atom:link href="/author/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://clem9669.github.io/blog/author/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>clem</title>
-      <link>/author/clem/</link>
+      <link>https://clem9669.github.io/blog/author/clem/</link>
       <pubDate>Sun, 19 Jul 2020 00:21:59 +0200</pubDate>
       
-      <guid>/author/clem/</guid>
+      <guid>https://clem9669.github.io/blog/author/clem/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lednerb</title>
-      <link>/author/lednerb/</link>
+      <link>https://clem9669.github.io/blog/author/lednerb/</link>
       <pubDate>Wed, 01 Nov 2017 18:10:14 +0100</pubDate>
       
-      <guid>/author/lednerb/</guid>
+      <guid>https://clem9669.github.io/blog/author/lednerb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Edward Snowden</title>
-      <link>/author/edward-snowden/</link>
+      <link>https://clem9669.github.io/blog/author/edward-snowden/</link>
       <pubDate>Wed, 01 Nov 2017 13:01:14 +0100</pubDate>
       
-      <guid>/author/edward-snowden/</guid>
+      <guid>https://clem9669.github.io/blog/author/edward-snowden/</guid>
       <description></description>
     </item>
     

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Music on Clem9669 Blog</title>
-    <link>/categories/music/</link>
+    <link>https://clem9669.github.io/blog/categories/music/</link>
     <description>Recent content in Music on Clem9669 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 01 Nov 2017 16:23:40 +0100</lastBuildDate>
     
-	<atom:link href="/categories/music/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://clem9669.github.io/blog/categories/music/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Kilez More - Life And Death Of The Hegemony</title>
-      <link>/video/kilez-more-leben-und-tod-des-imperialismus/</link>
+      <link>https://clem9669.github.io/blog/video/kilez-more-leben-und-tod-des-imperialismus/</link>
       <pubDate>Wed, 01 Nov 2017 16:23:40 +0100</pubDate>
       
-      <guid>/video/kilez-more-leben-und-tod-des-imperialismus/</guid>
+      <guid>https://clem9669.github.io/blog/video/kilez-more-leben-und-tod-des-imperialismus/</guid>
       <description>&lt;p&gt;Kilez More is a great Austrian musician.
 Most of his songs have a political background and have amazing lyrics!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Kilez More - New World Order</title>
-      <link>/audio/kilez-more-new-world-order/</link>
+      <link>https://clem9669.github.io/blog/audio/kilez-more-new-world-order/</link>
       <pubDate>Wed, 01 Nov 2017 16:12:47 +0100</pubDate>
       
-      <guid>/audio/kilez-more-new-world-order/</guid>
+      <guid>https://clem9669.github.io/blog/audio/kilez-more-new-world-order/</guid>
       <description>With the audio post type you can easily integrate a Spotify, SoundCloud, TuneIn or Mixcloud player to your post.
 If you don&amp;rsquo;t want to embed sound but use a header image you can set it with the featuredImage option in your markdown file.</description>
     </item>

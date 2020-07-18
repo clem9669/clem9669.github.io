@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>search engine on Clem9669 Blog</title>
-    <link>/tags/search-engine/</link>
+    <link>https://clem9669.github.io/blog/tags/search-engine/</link>
     <description>Recent content in search engine on Clem9669 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 01 Nov 2017 13:05:27 +0100</lastBuildDate>
     
-	<atom:link href="/tags/search-engine/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://clem9669.github.io/blog/tags/search-engine/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Duckduckgo.com</title>
-      <link>/link/duckduckgo/</link>
+      <link>https://clem9669.github.io/blog/link/duckduckgo/</link>
       <pubDate>Wed, 01 Nov 2017 13:05:27 +0100</pubDate>
       
-      <guid>/link/duckduckgo/</guid>
+      <guid>https://clem9669.github.io/blog/link/duckduckgo/</guid>
       <description>A search engnine that respects your privacy.</description>
     </item>
     
