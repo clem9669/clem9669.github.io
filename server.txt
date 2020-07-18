@@ -1,0 +1,19 @@
+TODO list:
+
+1. Acheter VPS SSD: OK
+2. Attendre activation (notification via email protonmail): 
+3. Acheter nom de domain
+4. Configurer DNS
+5. Configurer SSH
+6. Configurer DNSSEC
+7. Créer un site web random: https://blog.getpelican.com + https://github.com/molivier/nest
+8. Monter un serveur de mail: https://github.com/mail-in-a-box/mailinabox OR https://www.cyrusimap.org
+9. Envoyer un email
+A. Monter un Exit node: https://community.torproject.org/relay/
+B. Améliorer le site web 
+C. Analyser toutes les requêtes faites sur mon ip/domain (splunk)
+D. Améliorer la sécurité (fail2ban,ufw)
+E. Acheter un snapshot par OVH
+
+domainname: $$$.pw
+https://gohugo.io/hosting-and-deployment/hosting-on-github/

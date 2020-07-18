@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<!--
+  ______     _                                         _   _
+  | ___ \   (_)                                       | | | |
+  | |_/ / __ ___   ____ _  ___ _   _   _ __ ___   __ _| |_| |_ ___ _ __ ___
+  |  __/ '__| \ \ / / _` |/ __| | | | | '_ ` _ \ / _` | __| __/ _ \ '__/ __|
+  | |  | |  | |\ V / (_| | (__| |_| | | | | | | | (_| | |_| ||  __/ |  \__ \
+  \_|  |_|  |_| \_/ \__,_|\___|\__, | |_| |_| |_|\__,_|\__|\__\___|_|  |___/
+                                __/ |
+                               |___/
+
+                 ___
+                / _ \
+                | / \ |
+                | \_/ |
+                \___/ ___
+                _|_|_/[_]\__==_
+                [---------------]
+                | O   /---\     |   SNAP !
+                |    |     |    |
+                |     \___/     |
+                [---------------]
+                    [___]
+                     | |\\
+                     | | \\
+                     [ ]  \\_
+                    /|_|\  ( \
+                   //| |\\  \ \
+                  // | | \\  \ \
+                 //  |_|  \\  \_\
+                //   | |   \\
+               //\   | |   /\\
+              //  \  | |  /  \\
+             //    \ | | /    \\
+            //      \|_|/      \\
+           //        [_]        \\
+          //          H          \\
+         //           H           \\
+        //            H            \\
+       //             H             \\
+      //              H              \\
+     //                               \\
+    //                                 \\
+
+-->
+<html lang="en" dir="ltr">
+
+<head>
+	<title>•PGP•</title>
+	<style>
+		html {
+			cursor: context-menu !important;
+			overflow-x: hidden;
+		}
+
+		a,
+		button {
+			cursor: alias !important;
+		}
+
+		@font-face {
+			font-family: 'Kong';
+			src: url('kongtext.ttf');
+		}
+
+		@-webkit-keyframes bg {
+			from {
+				background-color: #fff;
+			}
+
+			to {
+				background-color: #000;
+			}
+		}
+
+		body {
+			background-color: #fff;
+			-webkit-animation: bg ease-in 1;
+			animation: bg ease-in 1;
+			-webkit-animation-fill-mode: forwards;
+			animation-fill-mode: forwards;
+			-webkit-animation-duration: 1.8s;
+			animation-duration: 1.8s;
+			font-family: Kong !important;
+		}
+
+		@-webkit-keyframes con {
+			from {
+				background-color: #fff;
+			}
+
+			to {
+				background-color: #000;
+			}
+		}
+
+		.nes-container.is-dark::before {
+			background-color: #fff !important;
+			-webkit-animation: con ease-in 1;
+			animation: con ease-in 1;
+			-webkit-animation-fill-mode: forwards;
+			animation-fill-mode: forwards;
+			-webkit-animation-duration: 1.8s;
+			animation-duration: 1.8s;
+		}
+
+		@-webkit-keyframes txt {
+			from {
+				color: #000;
+			}
+
+			to {
+				color: #fff;
+			}
+		}
+
+		p,
+		a,
+		code {
+			color: #000;
+			-webkit-animation: txt ease-in 1;
+			animation: txt ease-in 1;
+			-webkit-animation-fill-mode: forwards;
+			animation-fill-mode: forwards;
+			-webkit-animation-duration: 1.5s;
+			animation-duration: 1.5s;
+		}
+	</style>
+	<style>
+		.center {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.h {
+			position: relative;
+			margin: 0 auto;
+			background: #000;
+			color: #fff;
+		}
+
+		.h::before,
+		.h::after {
+			animation-iteration-count: infinite;
+			animation-timing-function: linear;
+			animation-direction: alternate-reverse;
+			overflow: hidden;
+			position: absolute;
+			top: 0;
+			clip: rect(0, 900px, 0, 0);
+			content: attr(data-text);
+		}
+
+		.h::after {
+			animation-name: han;
+			animation-duration: 4s;
+			left: 4px;
+			text-shadow: -1px 0 #ffa800;
+			background: #000;
+		}
+
+		.h::before {
+			animation-name: han-2;
+			animation-duration: 6s;
+			left: -4px;
+			text-shadow: 1px 0 #00d8ff;
+			background: #000;
+		}
+
+		@keyframes han {
+			0% {
+				clip: rect(42px, 9999px, 44px, 0);
+			}
+
+			5% {
+				clip: rect(12px, 9999px, 59px, 0);
+			}
+
+			10% {
+				clip: rect(48px, 9999px, 29px, 0);
+			}
+
+			15% {
+				clip: rect(42px, 9999px, 73px, 0);
+			}
+
+			20% {
+				clip: rect(63px, 9999px, 27px, 0);
+			}
+
+			25% {
+				clip: rect(34px, 9999px, 55px, 0);
+			}
+
+			30% {
+				clip: rect(86px, 9999px, 73px, 0);
+			}
+
+			35% {
+				clip: rect(20px, 9999px, 20px, 0);
+			}
+
+			40% {
+				clip: rect(26px, 9999px, 60px, 0);
+			}
+
+			45% {
+				clip: rect(25px, 9999px, 66px, 0);
+			}
+
+			50% {
+				clip: rect(57px, 9999px, 98px, 0);
+			}
+
+			55% {
+				clip: rect(5px, 9999px, 46px, 0);
+			}
+
+			60% {
+				clip: rect(82px, 9999px, 31px, 0);
+			}
+
+			65% {
+				clip: rect(54px, 9999px, 27px, 0);
+			}
+
+			70% {
+				clip: rect(28px, 9999px, 99px, 0);
+			}
+
+			75% {
+				clip: rect(45px, 9999px, 69px, 0);
+			}
+
+			80% {
+				clip: rect(23px, 9999px, 85px, 0);
+			}
+
+			85% {
+				clip: rect(54px, 9999px, 84px, 0);
+			}
+
+			90% {
+				clip: rect(45px, 9999px, 47px, 0);
+			}
+
+			95% {
+				clip: rect(37px, 9999px, 20px, 0);
+			}
+
+			100% {
+				clip: rect(4px, 9999px, 91px, 0);
+			}
+		}
+
+		@keyframes han-2 {
+			0% {
+				clip: rect(65px, 9999px, 100px, 0);
+			}
+
+			5% {
+				clip: rect(52px, 9999px, 74px, 0);
+			}
+
+			10% {
+				clip: rect(79px, 9999px, 85px, 0);
+			}
+
+			15% {
+				clip: rect(75px, 9999px, 5px, 0);
+			}
+
+			20% {
+				clip: rect(67px, 9999px, 61px, 0);
+			}
+
+			25% {
+				clip: rect(14px, 9999px, 79px, 0);
+			}
+
+			30% {
+				clip: rect(1px, 9999px, 66px, 0);
+			}
+
+			35% {
+				clip: rect(86px, 9999px, 30px, 0);
+			}
+
+			40% {
+				clip: rect(23px, 9999px, 98px, 0);
+			}
+
+			45% {
+				clip: rect(85px, 9999px, 72px, 0);
+			}
+
+			50% {
+				clip: rect(71px, 9999px, 75px, 0);
+			}
+
+			55% {
+				clip: rect(2px, 9999px, 48px, 0);
+			}
+
+			60% {
+				clip: rect(30px, 9999px, 16px, 0);
+			}
+
+			65% {
+				clip: rect(59px, 9999px, 50px, 0);
+			}
+
+			70% {
+				clip: rect(41px, 9999px, 62px, 0);
+			}
+
+			75% {
+				clip: rect(2px, 9999px, 82px, 0);
+			}
+
+			80% {
+				clip: rect(47px, 9999px, 73px, 0);
+			}
+
+			85% {
+				clip: rect(3px, 9999px, 27px, 0);
+			}
+
+			90% {
+				clip: rect(26px, 9999px, 55px, 0);
+			}
+
+			95% {
+				clip: rect(42px, 9999px, 97px, 0);
+			}
+
+			100% {
+				clip: rect(38px, 9999px, 49px, 0);
+			}
+		}
+	</style>
+	<link href="https://unpkg.com/nes.css/css/nes.min.css" rel="stylesheet" />
+	<script>
+		! function(e, t, a) {
+			function n() {
+				c(
+					".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"
+				), o(), r()
+			}
+
+			function r() {
+				for (var e = 0; e < d.length; e++)
+					d[e].alpha <= 0 ? (t.body.removeChild(d[e].el), d.splice(e, 1)) : (d[e].y--, d[e].scale += .004, d[e].alpha -= .013, d[e].el.style.cssText = "left:" + d[e].x + "px;top:" + d[e].y + "px;opacity:" + d[e].alpha + ";transform:scale(" + d[e].scale +
+						"," + d[e].scale + ") rotate(45deg);background:" + d[e].color + ";z-index:99999");
+				requestAnimationFrame(r)
+			}
+
+			function o() {
+				var t = "function" == typeof e.onclick && e.onclick;
+				e.onclick = function(e) {
+					t && t(), i(e)
+				}
+			}
+
+			function i(e) {
+				var a = t.createElement("div");
+				a.className = "heart", d.push({
+					el: a,
+					x: e.clientX - 5,
+					y: e.clientY - 5,
+					scale: 1,
+					alpha: 1,
+					color: s()
+				}), t.body.appendChild(a)
+			}
+
+			function c(e) {
+				var a = t.createElement("style");
+				a.type = "text/css";
+				try {
+					a.appendChild(t.createTextNode(e))
+				} catch (t) {
+					a.styleSheet.cssText = e
+				}
+				t.getElementsByTagName("head")[0].appendChild(a)
+			}
+
+			function s() {
+				return "rgb(" + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + ")"
+			}
+			var d = [];
+			e.requestAnimationFrame = function() {
+				return e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame || function(e) {
+					setTimeout(e, 1e3 / 60)
+				}
+			}(), n()
+		}(window, document);
+
+
+		var _0x2f65 = ['fromCharCode', 'toString', 'replace', 'split'];
+		(function(_0xa2e281, _0x350d27) {
+			var _0x414535 = function(_0x3e1346) {
+				while (--_0x3e1346) {
+					_0xa2e281['push'](_0xa2e281['shift']());
+				}
+			};
+			_0x414535(++_0x350d27);
+		}(_0x2f65, 0xc8));
+		var _0x49b8 = function(_0x4574e5, _0x49d4a5) {
+			_0x4574e5 = _0x4574e5 - 0x0;
+			var _0x5bfd24 = _0x2f65[_0x4574e5];
+			return _0x5bfd24;
+		};
+		eval(function(_0x4d2058, _0x408a07, _0x14da78, _0xc51923, _0x2b6471, _0x274f4a) {
+			_0x2b6471 = function(_0x14da78) {
+				return (_0x14da78 < _0x408a07 ? '' : _0x2b6471(parseInt(_0x14da78 / _0x408a07))) + ((_0x14da78 = _0x14da78 % _0x408a07) > 0x23 ? String[_0x49b8('0x0')](_0x14da78 + 0x1d) : _0x14da78[_0x49b8('0x1')](0x24));
+			};
+			if (!'' [_0x49b8('0x2')](/^/, String)) {
+				while (_0x14da78--) {
+					_0x274f4a[_0x2b6471(_0x14da78)] = _0xc51923[_0x14da78] || _0x2b6471(_0x14da78);
+				}
+				_0xc51923 = [function(_0x2b6471) {
+					return _0x274f4a[_0x2b6471];
+				}];
+				_0x2b6471 = function() {
+					return '\x5cw+';
+				};
+				_0x14da78 = 0x1;
+			};
+			while (_0x14da78--) {
+				if (_0xc51923[_0x14da78]) {
+					_0x4d2058 = _0x4d2058[_0x49b8('0x2')](new RegExp('\x5cb' + _0x2b6471(_0x14da78) + '\x5cb', 'g'), _0xc51923[_0x14da78]);
+				}
+			}
+			return _0x4d2058;
+		}(
+			'1m(K(p,a,c,k,e,d){e=K(c){L(c<a?\x27\x27:e(1q(c/a)))+((c=c%a)>1k?Q.1j(c+1f):c.1g(1h))};M(!\x27\x27.P(/^/,Q)){O(c--){d[e(c)]=k[c]||e(c)}k=[K(e){L\x20d[e]}];e=K(){L\x27\x5c\x5cw+\x27};c=1};O(c--){M(k[c]){p=p.P(Z\x2017(\x27\x5c\x5cb\x27+e(c)+\x27\x5c\x5cb\x27,\x27g\x27),k[c])}}L\x20p}(\x27i\x20a=[\x22\x5c\x5cH\x5c\x5cb\x22,\x22\x5c\x5cw\x5c\x5cc\x5c\x5ch\x22,\x22\x5c\x5cf\x5c\x5ce\x5c\x5ck\x22,\x22\x5c\x5cj\x5c\x5cb\x22,\x22\x5c\x5cs\x5c\x5ce\x22,\x22\x5c\x5co\x5c\x5cm\x22,\x22\x5c\x5cr\x5c\x5cd\x5c\x5cc\x22,\x22\x5c\x5ce\x5c\x5cd\x5c\x5cf\x22,\x22\x5c\x5cb\x5c\x5cg\x5c\x5cp\x22,\x22\x5c\x5cb\x5c\x5cg\x5c\x5cf\x22,\x22\x5c\x5cq\x5c\x5ce\x22,\x22\x5c\x5cp\x5c\x5cc\x22,\x22\x5c\x5cd\x5c\x5co\x5c\x5cc\x22,\x22\x5c\x5cg\x5c\x5cm\x5c\x5cb\x22,\x22\x5c\x5cg\x5c\x5cf\x22,\x22\x5c\x5cc\x5c\x5ck\x22,\x22\x5c\x5cj\x5c\x5cd\x22,\x22\x5c\x5ct\x5c\x5cu\x5c\x5cv\x5c\x5cx\x22,\x22\x5c\x5ch\x5c\x5cz\x5c\x5cy\x22];i\x20l=a[0]+a[5]+a[9]+a[1]+a[8]+a[J]+a[4]+a[I]+a[n]+a[3]+a[G]+a[F]+a[n]+a[E]+a[D]+a[6]+a[C]+a[2]+a[7];B.A(l)\x27,N,N,\x27||||||||||19|Y|1c|1b|1d|V|1e|S|R|T|X|U|W|11|1a|1n|1t|1w|1s|1r|1v|1y|1z|1A|1x|1u|1p|1i|18|12|10|14|13|1o|16|15\x27.1l(\x27|\x27),0,{}))',
+			0x3e, 0x63,
+			'||||||||||||||||||||||||||||||||||||||||||||||function|return|if|46|while|replace|String|var|x76|x74|_g0|x72|x6a|x66|x6f|new||||||||RegExp||_cs|x6e|x65|x20|x69|x75|29|toString|36|console|fromCharCode|35|split|eval|x73|x42|log|parseInt|x31|x61|x62|xc3|x30|x64|xa9|x32|x2c|x34' [
+				_0x49b8('0x3')
+			]('|'), 0x0, {}));
+	</script>
+</head>
+
+<body>
+	<center>
+		<style>
+			.log {
+				top: 140;
+				margin-top: 100px;
+			}
+		</style>
+		<img src="2.png" class="log" width="200px">
+		<br><br>
+	</center>
+	<main class="center">
+		<h1 class="h" data-text="Bonjour">Hello.</h1>
+	</main>
+	<br><br>
+	<center>
+		<p>
+			-----BEGIN PGP PUBLIC KEY BLOCK-----<br>
+			<br>
+			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
+			<br>
+			=ejj0<br>
+			-----END PGP PUBLIC KEY BLOCK-----
+		</p>
+	</center>
+</body>
+
+</html>
+
+
+<!--  Credit to
+https://cokethecat.neocities.org
+http://asciiart.eu/
+-->
+
+
+<!--
+                        $********    *$
+                      $ *******.    *
+                     $$******.*     *
+                    $$...$***.*.    *
+                     $..$$*****..   *$$$$$$$$$$
+                      .$$***.*..   ..$$$$$$$$$$$$
+                      .$$*****..   .$$$$$$$$$$$$$$$
+                       $*****...   *$$$$$$$$$$$$$$$$$$
+                      $****.*..    .$$$$$$$$$$$$$$$$$$$
+                      $******..    *$$$$$$$$$$$$$$$$$$$
+                     $$****.*.    .$$$$$$$$$$$$$$$$$$$$$
+                     $****.**     *$$$$$$$$$$$$$$$$$$$$$$$
+                    $$*****..     *$$$$$$$$$$$$$$$$$$$$$$
+                    $******..    .$$$$$$$$$$$$$$$$$$$$$$$$
+                    $*******.    *$$$$$$$$$$$$$$$$* *$$$$$$
+                    $******..    *$$$$$$$$$$$$$$$*  **$$$$
+                   .$****...     *$$$$$$$$$$$$$$     **$$$$$
+                   $******..     *$$$$$$$$$$$*      .***$$$$
+                   $*****..      *$$$$$$$*''          **$$$$
+                   $*****..      *$$*'''   .   .    ..**$$$$$
+                   *****...     *$$..      .   .    ...*$$$$$
+                  $*****..      *$.....        .    ...*$$$$$
+                 $******..     *$. .   ...       ..  ..*$$$$$$
+                 $*****...     *.*...*****      *****..*$$$$$$
+                $*****...      *. . *      .   .     ..$$$$$$
+                $*****...      *.    ***   .     ****..$$$$$$$
+               $******...     .*..         .         ..$$$$$$
+              $$*****....     *....        .  .      ..$$$$$$
+              $******....     **.....      .  .    ....$$$$$$
+             $$******...     ***.....     ...      ...*$$$$$$
+             ********...    ****....           .    ..**$$$$$
+             $******...     ****.......    *..*     ..**$$$$$$      $$
+            $*******...     ****.....            .  ****$$$$$$    $$$
+            $*******...    .****.....       .       ****$$$$$$$$$ $$
+           $********...    ******...    *..  ...*  ..***$$$$$$$$$$$$
+           $*******...     ******...              ..****$$$$$$$$$
+           $******...     ********..     ..   .  ..******$ $$$$$
+           $*****...      ******* ***       *   ..*******
+          $*****...     . *******.* **          .********
+          $*****...    ..*********.*.**.. .    ..********      $$
+         $$*****....  .. .*********.*..* ** **   *******      $$$
+         $$***********   ***********        .     ********   $$$
+         $***********.    ******$$$$$$$   *  *   *********$$$$$$
+         $$********....     ***$$$$$$$$*****     **********$$$$
+         $$*******...         *****$$$$$***       **********$$
+         $$******...           *$$$$$$$$$***      **********..     $$
+          $*******..            *$$$*$$$$$*****   *********$$..  $$$$
+          $********..                $$$$$$$$$      *******$$$$$$$$$
+          *$******...                  ***$$$$    *  ******$$$$$$$$$
+           $****** . .        *        ********   *    ***$$$$$$$$$
+           $******                        ****    *    **$$$$$$$$
+           *$****... .     .* $$ .       ****    **     *$$$$$$$$$
+            $$****...    . *$ $ ..          **      **** $$$$$$$$$$
+            $$**...*... ***$$*. ...          *         ** *$$$$..$$$
+            *$**......**.**$$$..             **         *  $$$$..$$$$   $$$
+            *$*..*....*..$$..*                 *  **        *$$$....$$$$$$
+             $*.*..*...*.$*...                   *  *         *$$$..$$$$$
+              $$.*..*...$$$*$                                  *$$$..$
+              .$.*..*.*..$$$*                     . *      .     $$$$$$ $$
+               $.*..*.$$.$             **         . *      ..     *$$$$$$$
+               $*.*..*.****          ******       ...   .   ..      *$$$
+               $*..*..$$*.***.       ******        . *  ..  .        .$
+               $*..*..$$..           ***..*.       .         ...       .
+               $*.*.*$$***..         ******          *. ..              .
+               ***.**$$$..*.           **            *  **...            .
+               *$$***$$$$*** .                     . ** .*..              .
+                $***.$$$$***..                     .  * *               .**.
+                *$$.$$$***...                        *  ..              .****
+                 **..$.$$$*$$*$$*$...              * ** *                ****
+                 ****$$$**.**..*...                *  *   *..        **  ***
+                 *$$$$$***$$**.*..                *  * **.....            *.
+                  *$$$$$******                         * .$..*.           .
+                  *$*******..*..*..* . *.    .. . * * *  *..**..*..      .
+                   *************..**... **** .*       ..  **..*.         .
+                   $*******.. *** $$ $ $$  *         ** .  ****.. .  .  *
+                    ****************$$*              * * ..  *..      .'
+                     $***************                 *.   .   *'*. .*
+                     **************                  ***  *      **
+                      ***************...           ***  *  **    .'
+                       *****************....                **   *'
+                       *****************      *   **    * *      $
+                        $************* .* .     *. .     * * * . *
+                        ***************       .*.            *....
+                         $*************                *        ..
+                         $************                          ...
+                          ***********                         *  .*
+                          *********          *.              *    ..
+                          *********         **                 *  .*
+                          $*********        *            *     *    *
+                           ***..*..****   **          * *       *    *
+                           $**..****.**.*.*  .        * *      * *    .
+                           $....*****......*                    * *    *
+                           $..*.*******.**.* .        *$*         **    *
+                           ****.******* .  * .         $*       *. .    ..
+                           *.****.** *     * .         $        .. .    ..*
+                           $*******          .                             *
+                           $*..*****                               .   * *  .
+                          .$.**.*.*                    *           .   * *.  *
+                          $*****                   * ** **          ..   *.  *
+                         .$**.*             .        ** *           . .    * *
+                         *$****           **           $$        . ..       *$
+                         $*******                       $       .  . ..  ***$*
+                        $****$**             **         *       .      ... $$.
+                       *$.***$$.$            *..        *             ...*  $*
+                       **********             **                        *   $.
+                       $****$$*****           *                         *   $*
+                      .$*.**$.**$****                                 ......$*
+                      .$********.* ..                                  *    $*
+                      ..*$.$****$*** . .*       *          **         ......$*
+                      ******,*,****   . . *       **. . .. *          .....$$*
+                      ****.******     .. *  *      * *. .**          ....$****
+                      .$*..*******     .. .* *           *          .....***..
+                      $***********  ..     *          . .             .*.*...
+                      $*********     * *   . * **     * .           ...*.*...
+                      $**.**.*.******.       ** *   .      $$       ..***.....
+                     *$***.*....*****...        $$$$$$$$$$$$$$$    ...****
+                     *$..*......*..... . **    $$$$$$$$$$$$       ..**.****.
+                     $..*..******.* *     ** $$$$$$$$$$$$$$$$$$$ ....****.*. .
+                     **.**********....   ..* .$$$$$$$$$$$$$$$$$ .*.*****.....
+                     **********.....       * ..$$$$$$$$$$$$$$$***.******...
+                    $**********....         **  $$$$$$$$$$$$$$*****...**.....
+                    $*********......         * **$$$$$$$$$$$.**.**.******...
+                    $********.......          **.*$$$$$$$$$$**.*****.***...
+                   *$********.....            ..**.*$$$$$$$**.***.*.***...
+                   $$$$$$$$$$.....             .*** $$$$$$*.******.****...
+                   *********....               * **$$$$$$**************..
+                  $********.....                *$$*$$$$$********.*...*...
+                  $*********......              *$$$    *$*******.**...
+                 $********.......               $$$*    *$********.....
+                 $********......               $$$$     .$*********..
+                $*********.......       **    $$$$       $*********....
+                $*******......          **    $$$        **********.....
+               .**** *.......           **   $$$         .$$$$$$$$$.....
+               $******......            **   $$*          $********......
+               $******.........        ***   $$           $********.....
+              *$*******.........       ***** $*           .$******......
+              $*******........         ****$$$             $*********......
+              $*******.......          ****$$              $*********......
+             $*******.........        *****$$              *$**********....
+             $*******.......           ****$               *$************....
+            .$*********........       ****$.               .$**********.....
+            *$**********.......       ****$                 $**********.....
+            $$*********.......       ****$.                 $*********.....
+           .$*********.....           **$$                  $***********....
+           .$*********......         ***$                   $*********.....
+           *$*********...            ***                     $*******.....
+           $*********.....           *$$                     $*******.......
+          .$*********....          ***$                      *$*********.....
+          $********.......         **$.                      .$********....
+         .$********....             *$                        $*********.....
+         $*******.......           *$.                        $*********......
+        .$*******........          $$                         $**********.....
+        $******* .......           $                          *$********......
+       .$*******.......           $.                          .$*********.....
+       $********........         $$                            $********....
+      .********* .......        $.                             $**********....
+      $********** ......    .   $.                             $**********....
+      $********* .....      .  $.                              .$***********..
+     $**********......      ..$.                                $*********....
+     $********* ........     $$.                                 $********....
+    $********* .........     $$                                 .$********....
+    $********* .......       $.                                  $*******...
+    $******** .......        $                                   $*******....
+    $*******..........       $                                   $*A******....
+   .$*******......          $.                                   .$***********
+   .$*******........        $..                                   $$*********.
+   $*******......          $.                                     $$*********.
+  .$*******........        $                                     $$$********
+  $********.......        $.                                     $$********
+  $********.....          $                                      $$$*******
+  $*******.....          *$                                      $$$*******
+ $*******.......       ***.                                      $$******..
+ $******.*....       ***$$                                       $$*******.
+$*******.*......     ***$.                                        $********
+$********.....      ****$                                         $********
+-->

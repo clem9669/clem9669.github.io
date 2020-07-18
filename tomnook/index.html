@@ -1,0 +1,2575 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Animal Crossing: NH</title>
+        
+        <link rel="stylesheet" href="css/sortable-theme-dark.css" />
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv='Content-Security-Policy' content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://www.w3schools.com https://fonts.googleapis.com https://cdnjs.cloudflare.com ; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com ; img-src 'self' http://image.jeuxvideo.com; media-src 'self' ;frame-src 'none';">
+        <link rel="stylesheet" href="./css/w3.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <style>
+        html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+        .w3-sidebar {
+        z-index: 3;
+        width: 250px;
+        top: 43px;
+        bottom: 0;
+        height: inherit;
+        }
+        </style>
+        <script src="js/sortable.min.js"></script>
+        <script>
+        // Get the Sidebar
+        var mySidebar = document.getElementById("mySidebar");
+        // Get the DIV with overlay effect
+        var overlayBg = document.getElementById("myOverlay");
+        // Toggle between showing and hiding the sidebar, and add overlay effect
+        function w3_open() {
+        if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+        overlayBg.style.display = "none";
+        } else {
+        mySidebar.style.display = 'block';
+        overlayBg.style.display = "block";
+        }
+        }
+        // Close the sidebar with the close button
+        function w3_close() {
+        mySidebar.style.display = "none";
+        overlayBg.style.display = "none";
+        }
+        </script>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <div class="w3-top">
+            <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+                <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+                <img src="images/NewHorizons.png" width="50" height="50" class="w3-bar-item w3-button w3-hide-small w3-hover-white"></img>
+                <a href="#" class="w3-bar-item w3-button w3-theme-l1">Animal Crossing: New Horizons</a>
+                <a href="https://en.wikipedia.org/wiki/Animal_Crossing:_New_Horizons" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+                <a href="https://animalcrossing.fandom.com/wiki/Version_history_(New_Horizons)" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Mises à jour</a>
+                <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+            </div>
+        </div>
+        <!-- Sidebar -->
+        <nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+            <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+                <i class="fa fa-remove"></i>
+            </a>
+            <h4 class="w3-bar-item"><b>Menu</b></h4>
+            <a class="w3-bar-item w3-button w3-hover-black" href="#todo">TODO</a>
+            <a class="w3-bar-item w3-button w3-hover-black" href="#poissons">Table poissons 🐟</a>
+            <a class="w3-bar-item w3-button w3-hover-black" href="#insectes">Table insectes 🦋</a>
+            <a class="w3-bar-item w3-button w3-hover-black" href="#coquillages">Table coquillages 🐚</a>
+            <a class="w3-bar-item w3-button w3-hover-black" href="#plongee">Table plongée 🐙</a>
+            <a class="w3-bar-item w3-button w3-hover-black" href="#fossiles">Table fossiles 🦖</a>
+            <a class="w3-bar-item w3-button w3-hover-black" href="#outils-or">Outils en or ⚜️</a>
+            <a class="w3-bar-item w3-button w3-hover-black" href="#arbres-clochettes">Arbres à clochettes 💰</a>
+            <a class="w3-bar-item w3-button w3-hover-black" href="#etoiles">Etoiles filantes 💫</a>
+        </nav>
+        <!-- Overlay effect when opening sidebar on small screens -->
+        <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+        <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+        <div class="w3-main" style="margin-left:250px">
+            <a id="todo"></a><div class="w3-row w3-padding-64">
+                <div class="w3-twothird w3-container">
+                    <h1 class="w3-text-teal">Pro Tips </h1>
+                    <h4>TODO</h4>
+                    <p>
+                        <ul>
+                            <li>Astuce & Techniques (add more)</li>
+                            <li>Ajouter les notes de patch</li>
+                        </ul>
+                    </p><p>                    
+                    <h5>Missions:</h5>
+                    <ul>
+                        <li><strong>Able Sisters</strong> : Achetez au moins 5 000 clochettes de vêtements à Mabel au Nook's Cranny, puis parlez-lui la troisième fois qu'elle est en ville.</li>
+
+                        <li><strong>Bâtiment des services aux résidents</strong> : Après l'arrivée des trois villageois pour lesquels vous avez construit des maisons, Tom Nook vous annoncera la mise à niveau.</li>
+                    </ul>
+                    <h5>Un artisanat plus rapide </h5>
+                        Une fois que vous avez commencé à élaborer une recette et que les matériaux sont mélangés, appuyez plusieurs fois sur A pour accélérer le processus.
+
+                    <h5>Rétablir la durabilité de l'outil</h5> 
+                        Pour redonner à votre outil toute sa durabilité, personnalisez-le sur n'importe quel établi. <br>
+                        <em>Remarque : cela ne fonctionne pas avec les haches ou les outils fragiles.</em>
+
+                    <h5>Arbres à meubles</h5>
+                        Chaque jour, il y a deux arbres sur votre île qui vous donneront un meuble si vous les secouez. Il y a au moins un arbre sur chaque île mystérieuse qui fera également tomber un meuble. Remarque : les meubles ne tombent que si vous secouez l'arbre plutôt que de le frapper avec une hache, et les arbres fruitiers ne font pas tomber de meubles.
+
+                    <h5>Obtenir des îles à cinq étoiles</h5>
+                        La principale chose requise pour obtenir une île de quatre à cinq étoiles est la couverture de la décoration. 
+                        Chaque carré à carreaux blancs sur votre mini-carte et votre carte principale désigne une zone. Pour avoir droit à cinq étoiles, vous devez avoir au moins une décoration dans chaque carré de cette carte, y compris les zones rocheuses dans les coins supérieurs de la carte et toutes les plages. <br>
+                        Ensuite, il suffit d'avoir suffisamment de décorations totales, de villageois et d'installations pour que le score de points cachés de votre île dépasse un certain seuil pour atteindre cinq étoiles.
+                    </p> 
+                    <p><a href="#top">Retour en haut</a></p>
+                </div>
+<!--                 <div class="w3-third w3-container">
+                    <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+                    <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+                </div> -->
+            </div>
+            <a id="poissons"></a><div class="w3-row w3-padding-64">
+                <div class="w3-twothird w3-container">
+                    <h1 class="w3-text-teal">Table des poissons 🐟</h1>
+                    <p>Que ce soit dans les rivières, les lacs ou l'océan, une multitude d'espèces de poisson nagent dans les fonds marins durant toutes les saisons. <br>
+                    Certains sont plus présents que d'autres et il est compliqué de compléter l'aquarium de votre musée de A à Z sans connaître ces informations cruciales. <br>
+                    Pour les clochettes ou pour le musée, voici la liste complète de tous les poissons dans Animal Crossing New Horizons ! Ceux-ci sont classés par saison, donc soyez un peu aventurier et fouiller ce guide pour trouver votre bonheur ! <br>
+                    (n'hésitez pas à faire un CTRL+F et de taper le nom du poisson que vous cherchez pour le trouver plus facilement)</p>
+                    <table class="sortable-theme-light" data-sortable style="width:100%">
+                        <thead>
+                            <tr>
+                                <th><center>Icône</center></th>
+                                <th><center>Nom</center></th>
+                                <th><center>Période</center></th>
+                                <th><center>Heure</center></th>
+                                <th><center>Lieu&météo</center></th>
+                                <th><center>Prix</center></th>
+                                <th><center>Taille</center></th>
+                                <th><center>Rareté</center></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><center><img src="./images/anchovy.png" width="90%"></center></td>
+                                <td>Anchois</th>
+                                <td>Toute l'année</td>
+                                <td>4h - 21h</td>
+                                <td>Océan</td>
+                                <td>200</td>
+                                <td>Petite</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/arapaima.png" width="90%"></center></td>
+                                <td>Arapaïma</th>
+                                <td>de juin à septembre</td>
+                                <td>16h - 9h</td>
+                                <td>Rivière</td>
+                                <td>10000</td>
+                                <td>Énorme</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/arowana.png" width="90%"></center></td>
+                                <td>Arowana</th>
+                                <td>de juin à septembre</td>
+                                <td>16h - 9h</td>
+                                <td>Rivière</td>
+                                <td>10000</td>
+                                <td>Moyenne</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/sweetfish.png" width="90%"></center></td>
+                                <td>Ayu</th>
+                                <td>de juillet à septembre</td>
+                                <td>Toute la journée</td>
+                                <td>Rivière</td>
+                                <td>900</td>
+                                <td>Petite / moyenne</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/black-bass.png" width="90%"></center></td>
+                                <td>Bar</th>
+                                <td>Toute l'année</td>
+                                <td>Toute la journée</td>
+                                <td>Rivière</td>
+                                <td>400</td>
+                                <td>Grande</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/sea-bass.png" width="90%"></center></td>
+                                <td>Bar commun</th>
+                                <td>Toute l'année</td>
+                                <td>Toute la journée</td>
+                                <td>Océan</td>
+                                <td>400</td>
+                                <td>Très grande</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/saddled-bichir.png" width="90%"></center></td>
+                                <td>Bichir</th>
+                                <td>de juin à septembre</td>
+                                <td>21h - 4h</td>
+                                <td>Rivière</td>
+                                <td>4000</td>
+                                <td>Grande</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/bitterling.png" width="90%"></center></td>
+                                <td>Bouvière</th>
+                                <td>de novembre à mars</td>
+                                <td>Toute la journée</td>
+                                <td>Rivière</td>
+                                <td>900</td>
+                                <td>Minuscule</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/pike.png" width="90%"></center></td>
+                                <td>Brochet</th>
+                                <td>de septembre à décembre</td>
+                                <td>Toute la journée</td>
+                                <td>Rivière</td>
+                                <td>1800</td>
+                                <td>Moyenne / grande</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/squid.png" width="90%"></center></td>
+                                <td>Calmar</th>
+                                <td>de décembre à août</td>
+                                <td>Toute la journée</td>
+                                <td>Océan</td>
+                                <td>500</td>
+                                <td>Moyenne</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/giant-trevally.png" width="90%"></center></td>
+                                <td>Carangue grosse tête</th>
+                                <td>de mai à octobre</td>
+                                <td>Toute la journée</td>
+                                <td>Océan</td>
+                                <td>4500</td>
+                                <td>Énorme</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/crucian-carp.png" width="90%"></center></td>
+                                <td>Carassin</th>
+                                <td>Toute l'année</td>
+                                <td>Toute la journée</td>
+                                <td>Rivière</td>
+                                <td>160</td>
+                                <td>Petite</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/olive-flounder.png" width="90%"></center></td>
+                                <td>Cardeau</th>
+                                <td>Toute l'année</td>
+                                <td>Toute la journée</td>
+                                <td>Océan</td>
+                                <td>800</td>
+                                <td>Grande</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/carp.png" width="90%"></center></td>
+                                <td>Carpe</th>
+                                <td>Toute l'année</td>
+                                <td>Toute la journée</td>
+                                <td>Étang</td>
+                                <td>300</td>
+                                <td>Moyenne</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/koi.png" width="90%"></center></td>
+                                <td>Carpe koï</th>
+                                <td>Toute l'année</td>
+                                <td>16h - 9h</td>
+                                <td>Étang</td>
+                                <td>4000</td>
+                                <td>Moyenne</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/pale-chub.png" width="90%"></center></td>
+                                <td>Chevaine</th>
+                                <td>Toute l'année</td>
+                                <td>9h - 16h</td>
+                                <td>Rivière</td>
+                                <td>200</td>
+                                <td>Minuscule</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/horse-mackerel.png" width="90%"></center></td>
+                                <td>Chinchard</th>
+                                <td>Toute l'année</td>
+                                <td>Toute la journée</td>
+                                <td>Océan</td>
+                                <td>150</td>
+                                <td>Petite</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/sea-butterfly.png" width="90%"></center></td>
+                                <td>Clione</th>
+                                <td>de décembre à mars</td>
+                                <td>Toute la journée</td>
+                                <td>Océan</td>
+                                <td>1000</td>
+                                <td>Minuscule</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/betta.png" width="90%"></center></td>
+                                <td>Combattant</th>
+                                <td>de mai à octobre</td>
+                                <td>9h - 16h</td>
+                                <td>Rivière</td>
+                                <td>2500</td>
+                                <td>Petite</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/mahi-mahi.png" width="90%"></center></td>
+                                <td>Coryphène</th>
+                                <td>de mai à octobre</td>
+                                <td>Toute la journée</td>
+                                <td>Océan (ponton)</td>
+                                <td>6000</td>
+                                <td>Très grande</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/mitten-crab.png" width="90%"></center></td>
+                                <td>Crabe chinois</th>
+                                <td>de septembre à novembre</td>
+                                <td>16h - 9h</td>
+                                <td>Rivière</td>
+                                <td>2000</td>
+                                <td>Petite</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/bluegill.png" width="90%"></center></td>
+                                <td>Crapet</th>
+                                <td>Toute l'année</td>
+                                <td>9h - 16h</td>
+                                <td>Rivière</td>
+                                <td>180</td>
+                                <td>Petite</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/pop-eyed-goldfish.png" width="90%"></center></td>
+                                <td>Cyprin doré</th>
+                                <td>Toute l'année</td>
+                                <td>9h - 16h</td>
+                                <td>Étang</td>
+                                <td>1300</td>
+                                <td>Minuscule</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/coelacanth.png" width="90%"></center></td>
+                                <td>Coelacanthe</th>
+                                <td>Toute l'année</td>
+                                <td>Toute la journée</td>
+                                <td>Océan (pluie/neige)</td>
+                                <td>15000</td>
+                                <td>Énorme</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/stringfish.png" width="90%"></center></td>
+                                <td>Dai yu</th>
+                                <td>de décembre à mars</td>
+                                <td>16h - 9h</td>
+                                <td>Rivière (falaise)</td>
+                                <td>15000</td>
+                                <td>Grande</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/Dorade.png" width="90%"></center></td>
+                                <td>Dorade</th>
+                                <td>de juin à septembre</td>
+                                <td>4h - 21h</td>
+                                <td>Rivière</td>
+                                <td>15000</td>
+                                <td>Très grande</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/crawfish.png" width="90%"></center></td>
+                                <td>Ecrevisse</th>
+                                <td>d'avril à septembre</td>
+                                <td>Toute la journée</td>
+                                <td>Étang</td>
+                                <td>200</td>
+                                <td>Petite</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/pond-smelt.png" width="90%"></center></td>
+                                <td>Eperlan</th>
+                                <td>de décembre à février</td>
+                                <td>Toute la journée</td>
+                                <td>Rivière</td>
+                                <td>320</td>
+                                <td>Petite</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/sturgeon.png" width="90%"></center></td>
+                                <td>Esturgeons</th>
+                                <td>de septembre à mars</td>
+                                <td>Toute la journée</td>
+                                <td>Estuaire</td>
+                                <td>10000</td>
+                                <td>Très grande</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/killifish.png" width="90%"></center></td>
+                                <td>Fondule barré</th>
+                                <td>d'avril à août</td>
+                                <td>Toute la journée</td>
+                                <td>Étang</td>
+                                <td>300</td>
+                                <td>Minuscule</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/gar.png" width="90%"></center></td>
+                                <td>Gar</th>
+                                <td>de juin à septembre</td>
+                                <td>16h - 9h</td>
+                                <td>Étang</td>
+                                <td>6000</td>
+                                <td>Énorme</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/freshwater-goby.png" width="90%"></center></td>
+                                <td>Gobie d'eau douce</th>
+                                <td>Toute l'année</td>
+                                <td>16h - 9h</td>
+                                <td>Rivière</td>
+                                <td>400</td>
+                                <td>Petite</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/great-white-shark.png" width="90%"></center></td>
+                                <td>Grand requin blanc</th>
+                                <td>de juin à septembre</td>
+                                <td>16h - 9h</td>
+                                <td>Océan</td>
+                                <td>15000</td>
+                                <td>Énorme</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/frog.png" width="90%"></center></td>
+                                <td>Grenouille</th>
+                                <td>de mai à août</td>
+                                <td>Toute la journée</td>
+                                <td>Étang</td>
+                                <td>120</td>
+                                <td>Petite</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/guppy.png" width="90%"></center></td>
+                                <td>Guppy</th>
+                                <td>d'avril à novembre</td>
+                                <td>9h - 16h</td>
+                                <td>Rivière</td>
+                                <td>1300</td>
+                                <td>Minuscule</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/sea-horse.png" width="90%"></center></td>
+                                <td>Hippocampe</th>
+                                <td>d'avril à novembre</td>
+                                <td>Toute la journée</td>
+                                <td>Océan</td>
+                                <td>1100</td>
+                                <td>Minuscule</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/dab.png" width="90%"></center></td>
+                                <td>Limande</th>
+                                <td>d'octobre à avril</td>
+                                <td>Toute la journée</td>
+                                <td>Océan</td>
+                                <td>300</td>
+                                <td>Moyenne</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/loach.png" width="90%"></center></td>
+                                <td>Loche d'étang</th>
+                                <td>de mars à mai</td>
+                                <td>Toute la journée</td>
+                                <td>Rivière</td>
+                                <td>400</td>
+                                <td>Petite / Moyenne</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/ocean-sunfish.png" width="90%"></center></td>
+                                <td>Lune de mer</th>
+                                <td>de juillet à septembre</td>
+                                <td>4h - 21h</td>
+                                <td>Océan</td>
+                                <td>4000</td>
+                                <td>Énorme</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/barreleye.png" width="90%"></center></td>
+                                <td>Macropinna</th>
+                                <td>Toute l'année</td>
+                                <td>21h - 4h</td>
+                                <td>Océan</td>
+                                <td>15000</td>
+                                <td>Petite</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/blue-marlin.png" width="90%"></center></td>
+                                <td>Marlin bleu</th>
+                                <td>de juin à septembre et de novembre à avril</td>
+                                <td>Toute la journée</td>
+                                <td>Océan (ponton)</td>
+                                <td>10000</td>
+                                <td>Énorme</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/moray-eel.png" width="90%"></center></td>
+                                <td>Murène</th>
+                                <td>d'août à octobre</td>
+                                <td>Toute la journée</td>
+                                <td>Océan</td>
+                                <td>2000</td>
+                                <td>Très grande</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/ribbon-eel.png" width="90%"></center></td>
+                                <td>Murène ruban bleue</th>
+                                <td>de juin à octobre</td>
+                                <td>Toute la journée</td>
+                                <td>Océan</td>
+                                <td>600</td>
+                                <td>Fine</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/napoleonfish.png" width="90%"></center></td>
+                                <td>Napoléon</th>
+                                <td>de juillet à août</td>
+                                <td>4h - 21h</td>
+                                <td>Océan</td>
+                                <td>10000</td>
+                                <td>Énorme</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/neon-tetra.png" width="90%"></center></td>
+                                <td>Néon bleu</th>
+                                <td>d'avril à novembre</td>
+                                <td>9h - 16h</td>
+                                <td>Rivière</td>
+                                <td>500</td>
+                                <td>Minuscule</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/char.png" width="90%"></center></td>
+                                <td>Omble</th>
+                                <td>de mars à juin / de septembre à novembre</td>
+                                <td>16h - 9h</td>
+                                <td>Rivière (falaise)</td>
+                                <td>3800</td>
+                                <td>Petite / Moyenne</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/yellow-perch.png" width="90%"></center></td>
+                                <td>Perche jaune</th>
+                                <td>d'octobre à mars</td>
+                                <td>Toute la journée</td>
+                                <td>Rivière</td>
+                                <td>300</td>
+                                <td>Petite / Moyenne</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/piranha.png" width="90%"></center></td>
+                                <td>Piranha</th>
+                                <td>de juin à septembre</td>
+                                <td>9h - 16h / 21h - 4h</td>
+                                <td>Rivière</td>
+                                <td>2500</td>
+                                <td>Petite</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/rainbow-fish.png" width="90%"></center></td>
+                                <td>Poisson arc-en-ciel</th>
+                                <td>de mai à octobre</td>
+                                <td>9h - 16h</td>
+                                <td>Rivière</td>
+                                <td>800</td>
+                                <td>Minuscule</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/surgeonfish.png" width="90%"></center></td>
+                                <td>Poisson chirurgien</th>
+                                <td>d'avril à septembre</td>
+                                <td>Toute la journée</td>
+                                <td>Océan</td>
+                                <td>1000</td>
+                                <td>Petite</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/nibble-fish.png" width="90%"></center></td>
+                                <td>Poisson docteur</th>
+                                <td>de mai à septembre</td>
+                                <td>9h - 16h</td>
+                                <td>Rivière</td>
+                                <td>1500</td>
+                                <td>Petite</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/football-fish.png" width="90%"></center></td>
+                                <td>Poisson lanterne</th>
+                                <td>de novembre à mars</td>
+                                <td>16h - 9h</td>
+                                <td>Océan</td>
+                                <td>2500</td>
+                                <td>Grande</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/goldfish.png" width="90%"></center></td>
+                                <td>Poisson rouge</th>
+                                <td>Toute l'année</td>
+                                <td>Toute la journée</td>
+                                <td>Étang</td>
+                                <td>1300</td>
+                                <td>Minuscule</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/angelfish.png" width="90%"></center></td>
+                                <td>Poisson-ange</th>
+                                <td>de mai à octobre</td>
+                                <td>16h - 9h</td>
+                                <td>Rivière</td>
+                                <td>3000</td>
+                                <td>Petite</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/blowfish.png" width="90%"></center></td>
+                                <td>Poisson-ballon</th>
+                                <td>de novembre à février</td>
+                                <td>21h - 4h</td>
+                                <td>Océan</td>
+                                <td>5000</td>
+                                <td>Moyenne</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/clown-fish.png" width="90%"></center></td>
+                                <td>Poisson-clown</th>
+                                <td>d'avril à septembre</td>
+                                <td>Toute la journée</td>
+                                <td>Océan</td>
+                                <td>650</td>
+                                <td>Minuscule</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/butterfly-fish.png" width="90%"></center></td>
+                                <td>Poisson-papillon</th>
+                                <td>d'avril à septembre</td>
+                                <td>Toute la journée</td>
+                                <td>Océan</td>
+                                <td>1000</td>
+                                <td>Petite</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/puffer-fish.png" width="90%"></center></td>
+                                <td>Poisson-porc-épic</th>
+                                <td>de juillet à septembre</td>
+                                <td>Toute la journée</td>
+                                <td>Océan</td>
+                                <td>250</td>
+                                <td>Moyenne</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/oarfish.png" width="90%"></center></td>
+                                <td>Poisson-ruban</th>
+                                <td>de décembre à mai</td>
+                                <td>Toute la journée</td>
+                                <td>Océan</td>
+                                <td>9000</td>
+                                <td>Énorme</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/zebra-turkeyfish.png" width="90%"></center></td>
+                                <td>Poisson-scorpion</th>
+                                <td>d'avril à novembre</td>
+                                <td>Toute la journée</td>
+                                <td>Océan</td>
+                                <td>500</td>
+                                <td>Moyenne</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/ray.png" width="90%"></center></td>
+                                <td>Raie</th>
+                                <td>d'août à novembre</td>
+                                <td>4h - 21h</td>
+                                <td>Océan</td>
+                                <td>3000</td>
+                                <td>Énorme</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/ranchu-goldfish.png" width="90%"></center></td>
+                                <td>Ranchu</th>
+                                <td>Toute l'année</td>
+                                <td>9h - 16h</td>
+                                <td>Étang</td>
+                                <td>4500</td>
+                                <td>Petite</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/suckerfish.png" width="90%"></center></td>
+                                <td>Rémora rayé</th>
+                                <td>de juin à septembre</td>
+                                <td>Toute la journée</td>
+                                <td>Océan</td>
+                                <td>1500</td>
+                                <td>Moyenne</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/hammerhead-shark.png" width="90%"></center></td>
+                                <td>Requin marteau</th>
+                                <td>de juin à septembre</td>
+                                <td>16h - 9h</td>
+                                <td>Océan</td>
+                                <td>8000</td>
+                                <td>Énorme</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/saw-shark.png" width="90%"></center></td>
+                                <td>Requin scie</th>
+                                <td>de juin à septembre</td>
+                                <td>16h - 9h</td>
+                                <td>Océan</td>
+                                <td>12000</td>
+                                <td>Énorme</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/whale-shark.png" width="90%"></center></td>
+                                <td>Requin-baleine</th>
+                                <td>de juin à septembre</td>
+                                <td>Toute la journée</td>
+                                <td>Océan</td>
+                                <td>13000</td>
+                                <td>Énorme</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/salmon.png" width="90%"></center></td>
+                                <td>Saumon</th>
+                                <td>septembre</td>
+                                <td>Toute la journée</td>
+                                <td>Estuaire</td>
+                                <td>700</td>
+                                <td>Grande</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/cherry-salmon.png" width="90%"></center></td>
+                                <td>Saumon masou</th>
+                                <td>de mars à juin et de septembre à novembre</td>
+                                <td>16h - 9h</td>
+                                <td>Rivière (falaise)</td>
+                                <td>1000</td>
+                                <td>Petite / Moyenne</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/king-salmon.png" width="90%"></center></td>
+                                <td>Saumon roi</th>
+                                <td>septembre</td>
+                                <td>Toute la journée</td>
+                                <td>Estuaire</td>
+                                <td>10000</td>
+                                <td>Énorme</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/barred-knifejaw.png" width="90%"></center></td>
+                                <td>Scarus</th>
+                                <td>de mars à novembre</td>
+                                <td>Toute la journée</td>
+                                <td>Océan</td>
+                                <td>5000</td>
+                                <td>Moyenne</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/catfish.png" width="90%"></center></td>
+                                <td>Silure</th>
+                                <td>de mai à octobre</td>
+                                <td>16h - 9h</td>
+                                <td>Étang</td>
+                                <td>800</td>
+                                <td>Moyenne</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/tadpole.png" width="90%"></center></td>
+                                <td>Têtard</th>
+                                <td>de mars à juillet</td>
+                                <td>Toute la journée</td>
+                                <td>Étang</td>
+                                <td>100</td>
+                                <td>Minuscule</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/giant-snakehead.png" width="90%"></center></td>
+                                <td>Tête-de-serpent</th>
+                                <td>de juin à août</td>
+                                <td>9h - 16h</td>
+                                <td>Étang</td>
+                                <td>5500</td>
+                                <td>Grande</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/tuna.png" width="90%"></center></td>
+                                <td>Thon</th>
+                                <td>de novembre à avril</td>
+                                <td>Toute la journée</td>
+                                <td>Océan (ponton)</td>
+                                <td>7000</td>
+                                <td>Énorme</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/tilapia.png" width="90%"></center></td>
+                                <td>Tilapia</th>
+                                <td>de juin à octobre</td>
+                                <td>Toute la journée</td>
+                                <td>Rivière</td>
+                                <td>800</td>
+                                <td>Moyenne</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/snapping-turtle.png" width="90%"></center></td>
+                                <td>Tortue serpentine</th>
+                                <td>d'avril à octobre</td>
+                                <td>21h - 4h</td>
+                                <td>Rivière</td>
+                                <td>5000</td>
+                                <td>Moyenne</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/soft-shelled-turtle.png" width="90%"></center></td>
+                                <td>Tortue trionyx</th>
+                                <td>d'août à septembre</td>
+                                <td>16h - 9h</td>
+                                <td>Rivière</td>
+                                <td>3750</td>
+                                <td>Moyenne</td>
+                                <td>Rare</td>
+                            </tr>                            
+                            <tr>
+                                <td><center><img src="./images/golden-trout.png" width="90%"></center></td>
+                                <td>Truite Dorée</td>
+                                <td>de mars à mai et de sept à nov</td>
+                                <td>16h - 9h</td>
+                                <td>Rivière (falaise)</td>
+                                <td>15000</td>
+                                <td>Grand</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/dace.png" width="90%"></center></td>
+                                <td>Vandoise</th>
+                                <td>Toute l'année</td>
+                                <td>16h - 9h</td>
+                                <td>Rivière</td>
+                                <td>240</td>
+                                <td>Moyenne</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/red-snapper.png" width="90%"></center></td>
+                                <td>Vivaneau</th>
+                                <td>Toute l'année</td>
+                                <td>Toute la journée</td>
+                                <td>Océan</td>
+                                <td>3000</td>
+                                <td>Moyenne</td>
+                                <td>Rare</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><a href="#top">Retour en haut</a></p>
+                </div>
+<!--                 <div class="w3-third w3-container">
+                    <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+                    <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+                </div> -->
+            </div>
+            <a id="insectes"></a><div class="w3-row w3-padding-64">
+                <div class="w3-twothird w3-container">
+                    <h1 class="w3-text-teal">Table des insectes 🦋</h1>
+                    <p>Que ce soit sur le sol, sur les arbres ou dans les airs, une multitude d'espèce d'insecte grouille sur votre île durant toutes les saisons. Certains sont plus présents que d'autres et il est compliqué de compléter le terrarium de votre musée de A à Z sans connaître ses informations cruciales. <br>
+                    Pour les clochettes ou pour le musée, voici la liste complète de tous les insectes dans Animal Crossing New Horizons ! Ceux-ci sont classés par saison, donc soyez un peu aventurier et fouiller ce guide pour trouver votre bonheur ! <br>
+                    (n'hésitez pas à faire un CTRL+F et de taper le nom du poisson que vous cherchez pour le trouver plus facilement)</p>
+                    <table class="sortable-theme-light" data-sortable style="width:100%">
+                        <thead>
+                            <tr>
+                                <th><center>Icône</center></th>
+                                <th><center>Nom</center></th>
+                                <th><center>Période</center></th>
+                                <th><center>Heure</center></th>
+                                <th><center>Lieu</center></th>
+                                <th><center>Prix</center></th>
+                                <th><center>Rareté</center></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><center><img src="./images/honeybee.png" width="70%"></center></td>
+                                <td>Abeille naine</td>
+                                <td>de mars à juillet</td>
+                                <td>8h - 17h</td>
+                                <td>Ciel</td>
+                                <td>200</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/long-locust.png" width="70%"></center></td>
+                                <td>Acrida cinerea</th>
+                                <td>d'avril à novembre</td>
+                                <td>8h - 19h</td>
+                                <td>Sol</td>
+                                <td>200</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/agrias-butterfly.png" width="70%"></center></td>
+                                <td>Agrias</th>
+                                <td>d'avril à septembre</td>
+                                <td>8h - 17h</td>
+                                <td>Ciel</td>
+                                <td>3000</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/darner-dragonfly.png" width="70%"></center></td>
+                                <td>Anax napolitain</th>
+                                <td>d'avril à octobre</td>
+                                <td>8h - 17h</td>
+                                <td>Ciel</td>
+                                <td>230</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/spider.png" width="70%"></center></td>
+                                <td>Araignée</th>
+                                <td>Toute l'année</td>
+                                <td>19h - 8h</td>
+                                <td>Arbres</td>
+                                <td>600</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/atlas-moth.png" width="70%"></center></td>
+                                <td>Attacus Atlas</th>
+                                <td>d'avril à septembre</td>
+                                <td>19h - 4h</td>
+                                <td>Arbres</td>
+                                <td>3000</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/hermit-crab.png" width="70%"></center></td>
+                                <td>Bernard-l'hermite</th>
+                                <td>Toute l'année</td>
+                                <td>19h - 8h</td>
+                                <td>Plage</td>
+                                <td>1000</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/dung-beetle.png" width="70%"></center></td>
+                                <td>Bousier</th>
+                                <td>de décembre à février</td>
+                                <td>Toute la journée</td>
+                                <td>Boules de neige</td>
+                                <td>2500</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/jewel-beetle.png" width="70%"></center></td>
+                                <td>Bupreste</th>
+                                <td>d'avril à août</td>
+                                <td>Toute la journée</td>
+                                <td>Arbres</td>
+                                <td>2400</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/citrus-long-horned-beetle.png" width="70%"></center></td>
+                                <td>Capricorne des agrumes</th>
+                                <td>Toute l'année</td>
+                                <td>Toute la journée</td>
+                                <td>Souches d'arbres</td>
+                                <td>350</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/man-faced-stink-bug.png" width="70%"></center></td>
+                                <td>Catacanthus</th>
+                                <td>de mars à octobre</td>
+                                <td>19h - 8h</td>
+                                <td>Fleurs</td>
+                                <td>1000</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/drone-beetle.png" width="70%"></center></td>
+                                <td>Cétoine dorée</th>
+                                <td>de juin à août</td>
+                                <td>Toute la journée</td>
+                                <td>Arbres</td>
+                                <td>200</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/madagascan-sunset-moth.png" width="70%"></center></td>
+                                <td>Chrysiridia rhipheus</th>
+                                <td>d'avril à septembre</td>
+                                <td>8h - 16h</td>
+                                <td>Ciel</td>
+                                <td>2500</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/tiger-beetle.png" width="70%"></center></td>
+                                <td>Cicindèle</th>
+                                <td>de février à octobre</td>
+                                <td>Toute la journée</td>
+                                <td>Sol</td>
+                                <td>1500</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/brown-cicada.png" width="70%"></center></td>
+                                <td>Cigale cercope</th>
+                                <td>de juillet à août</td>
+                                <td>8h - 17h</td>
+                                <td>Arbres</td>
+                                <td>250</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/walker-cicada.png" width="70%"></center></td>
+                                <td>Cigale cicadelle</th>
+                                <td>d'août à septembre</td>
+                                <td>8h - 17h</td>
+                                <td>Arbres</td>
+                                <td>400</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/giant-cicada.png" width="70%"></center></td>
+                                <td>Cigale géante</th>
+                                <td>de juillet à août</td>
+                                <td>8h - 17h</td>
+                                <td>Arbres</td>
+                                <td>500</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/evening-cicada.png" width="70%"></center></td>
+                                <td>Cigale higurashi</th>
+                                <td>de juillet à août</td>
+                                <td>4h - 8h / 16h - 19h</td>
+                                <td>Arbres</td>
+                                <td>550</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/Robust-Cicada.png" width="70%"></center></td>
+                                <td>Cigale hyalessa</th>
+                                <td>de juillet à août</td>
+                                <td>8h - 17h</td>
+                                <td>Arbres</td>
+                                <td>300</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/yellow-butterfly.png" width="70%"></center></td>
+                                <td>Citrin</th>
+                                <td>de mars à juin et de septembre à octobre</td>
+                                <td>4h - 19h</td>
+                                <td>Ciel</td>
+                                <td>160</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/pill-bug.png" width="70%"></center></td>
+                                <td>Cloporte</th>
+                                <td>de septembre à juin</td>
+                                <td>23h - 16h</td>
+                                <td>Rochers</td>
+                                <td>250</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/ladybug.png" width="70%"></center></td>
+                                <td>Coccinelle</th>
+                                <td>de mars à juin et en octobre</td>
+                                <td>8h - 17h</td>
+                                <td>Fleurs</td>
+                                <td>200</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/banded-dragonfly.png" width="70%"></center></td>
+                                <td>Cordulégastre</th>
+                                <td>de mai à octobre</td>
+                                <td>8h - 17h</td>
+                                <td>Ciel</td>
+                                <td>4500</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/rice-grasshopper.png" width="70%"></center></td>
+                                <td>Criquet</th>
+                                <td>d'août à novembre</td>
+                                <td>8h - 19h</td>
+                                <td>Sol</td>
+                                <td>400</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/migratory-locust.png" width="70%"></center></td>
+                                <td>Criquet pèlerin</th>
+                                <td>d'août à novembre</td>
+                                <td>8h - 19h</td>
+                                <td>Sol</td>
+                                <td>600</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/damselfly.png" width="70%"></center></td>
+                                <td>Demoiselle</th>
+                                <td>de novembre à février</td>
+                                <td>Toute la journée</td>
+                                <td>Ciel</td>
+                                <td>500</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/diving-beetle.png" width="70%"></center></td>
+                                <td>Dytique</th>
+                                <td>de mai à septembre</td>
+                                <td>8h - 19h</td>
+                                <td>Surface de l'eau</td>
+                                <td>800</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/snail.png" width="70%"></center></td>
+                                <td>Escargot</th>
+                                <td>Toute l'année</td>
+                                <td>Toute la journée</td>
+                                <td>Rochers (pluie)</td>
+                                <td>250</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/ant.png" width="70%"></center></td>
+                                <td>Fourmi</th>
+                                <td>Toute l'année</td>
+                                <td>Toute la journée</td>
+                                <td>Navets pourris</td>
+                                <td>80</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/earth-boring-dung-beetle.png" width="70%"></center></td>
+                                <td>Geotrupidae</th>
+                                <td>de juillet à septembre</td>
+                                <td>Toute la journée</td>
+                                <td>Arbres</td>
+                                <td>300</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/great-purple-emperor.png" width="70%"></center></td>
+                                <td>Grand papillon pourpre</th>
+                                <td>de mai à août</td>
+                                <td>4h - 19h</td>
+                                <td>Ciel</td>
+                                <td>3000</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/paper-kite-butterfly.png" width="70%"></center></td>
+                                <td>Grand planeur</th>
+                                <td>Toute l'année</td>
+                                <td>8h - 19h</td>
+                                <td>Ciel</td>
+                                <td>1000</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/common-bluebottle.png" width="70%"></center></td>
+                                <td>Graphium sarpedon</th>
+                                <td>d'avril à août</td>
+                                <td>4h - 19h</td>
+                                <td>Ciel</td>
+                                <td>300</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/cricket.png" width="70%"></center></td>
+                                <td>Grillon des prés</th>
+                                <td>de septembre à novembre</td>
+                                <td>17h - 8h</td>
+                                <td>Sol</td>
+                                <td>130</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/bell-cricket.png" width="70%"></center></td>
+                                <td>Grillon du midi</th>
+                                <td>de septembre à octobre</td>
+                                <td>17h - 8h</td>
+                                <td>Sol</td>
+                                <td>430</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/wasp.png" width="70%"></center></td>
+                                <td>Guêpe</th>
+                                <td>Toute l'année</td>
+                                <td>Toute la journée</td>
+                                <td>Arbres</td>
+                                <td>2500</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/wharf-roach.png" width="70%"></center></td>
+                                <td>Ligie</th>
+                                <td>Toute l'année</td>
+                                <td>Toute la journée</td>
+                                <td>Plage</td>
+                                <td>200</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/Lucane-cerf-volant.png" width="70%"></center></td>
+                                <td>Lucane cerf-volant</th>
+                                <td>de juillet à août</td>
+                                <td>23h - 8h</td>
+                                <td>Arbres</td>
+                                <td>10000</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/rainbow-stag.png" width="70%"></center></td>
+                                <td>Lucane copris irisé</th>
+                                <td>de juin à septembre</td>
+                                <td>19h - 8h</td>
+                                <td>Arbres</td>
+                                <td>6000</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/Lucane-cyclommatus.png" width="70%"></center></td>
+                                <td>Lucane cyclommatus</th>
+                                <td>de juillet à août</td>
+                                <td>17h - 8h</td>
+                                <td>Palmiers</td>
+                                <td>8000</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/giraffe-stag.png" width="70%"></center></td>
+                                <td>Lucane girafe</th>
+                                <td>de juillet à août</td>
+                                <td>Toute la journée</td>
+                                <td>Arbres</td>
+                                <td>12000</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/Lucane-inclinatus.png" width="70%"></center></td>
+                                <td>Lucane inclinatus</th>
+                                <td>de juillet à août</td>
+                                <td>Toute la journée</td>
+                                <td>Arbres</td>
+                                <td>2000</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/Lucane-lamprima.png" width="70%"></center></td>
+                                <td>Lucane lamprima</th>
+                                <td>de juillet à août</td>
+                                <td>17h - 8h</td>
+                                <td>Palmiers</td>
+                                <td>12000</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/Lucane-miyama.png" width="70%"></center></td>
+                                <td>Lucane miyama</th>
+                                <td>de juillet à août</td>
+                                <td>Toute la journée</td>
+                                <td>Arbres</td>
+                                <td>1000</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/firefly.png" width="70%"></center></td>
+                                <td>Luciole</th>
+                                <td>juin</td>
+                                <td>19h - 4h</td>
+                                <td>Au bord de l'eau</td>
+                                <td>300</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/tiger-butterfly.png" width="70%"></center></td>
+                                <td>Machaon</th>
+                                <td>de mars à septembre</td>
+                                <td>4h - 19h</td>
+                                <td>Ciel</td>
+                                <td>240</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/orchid-mantis.png" width="70%"></center></td>
+                                <td>Mante orchidée</th>
+                                <td>de mars à novembre</td>
+                                <td>8h - 17h</td>
+                                <td>Fleurs blanches</td>
+                                <td>2400</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/mantis.png" width="70%"></center></td>
+                                <td>Mante religieuse</th>
+                                <td>de mars à novembre</td>
+                                <td>8h - 17h</td>
+                                <td>Fleurs</td>
+                                <td>430</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/centipede.png" width="70%"></center></td>
+                                <td>Mille-pattes</th>
+                                <td>de septembre à juin</td>
+                                <td>16h - 23h</td>
+                                <td>Rochers</td>
+                                <td>300</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/monarch-butterfly.png" width="70%"></center></td>
+                                <td>Monarque</th>
+                                <td>de septembre à novembre</td>
+                                <td>4h - 17h</td>
+                                <td>Ciel</td>
+                                <td>140</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/violin-beetle.png" width="70%"></center></td>
+                                <td>Mormolyce</th>
+                                <td>de mai à juin / de septembre à novembre</td>
+                                <td>Toute la journée</td>
+                                <td>Souches d'arbres</td>
+                                <td>450</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/emperor-butterfly.png" width="70%"></center></td>
+                                <td>Morpho bleu</th>
+                                <td>de juin à septembre et de décembre à mars</td>
+                                <td>17h - 8h</td>
+                                <td>Ciel</td>
+                                <td>4000</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/fly.png" width="70%"></center></td>
+                                <td>Mouche</th>
+                                <td>Toute l'année</td>
+                                <td>Toute la journée</td>
+                                <td>???</td>
+                                <td>60</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/mosquito.png" width="70%"></center></td>
+                                <td>Moustique</th>
+                                <td>de juin à septembre</td>
+                                <td>17h - 4h</td>
+                                <td>Ciel</td>
+                                <td>130</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/cicada-shell.png" width="70%"></center></td>
+                                <td>Mue de cigale</th>
+                                <td>de juillet à août</td>
+                                <td>Toute la journée</td>
+                                <td>Arbres</td>
+                                <td>10</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/peacock-butterfly.png" width="70%"></center></td>
+                                <td>Papilio bianor</th>
+                                <td>de mars à juin</td>
+                                <td>4h - 19h</td>
+                                <td>Ciel</td>
+                                <td>2500</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/moth.png" width="70%"></center></td>
+                                <td>Papillon de nuit</th>
+                                <td>Toute l'année</td>
+                                <td>19h - 4h</td>
+                                <td>Lumières</td>
+                                <td>130</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/pondskater.png" width="70%"></center></td>
+                                <td>Patineur</th>
+                                <td>de mai à septembre</td>
+                                <td>8h - 19h</td>
+                                <td>Surface de l'eau</td>
+                                <td>130</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/Phasme.png" width="70%"></center></td>
+                                <td>Phasme</th>
+                                <td>de juillet à novembre</td>
+                                <td>4h - 8h / 17h - 19h</td>
+                                <td>Arbres</td>
+                                <td>600</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/walking-leaf.png" width="70%"></center></td>
+                                <td>Phyllie</th>
+                                <td>de juillet à septembre</td>
+                                <td>Toute la journée</td>
+                                <td>Sol</td>
+                                <td>600</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/common-butterfly.png" width="70%"></center></td>
+                                <td>Piéride de la rave</th>
+                                <td>de septembre à juin</td>
+                                <td>4h - 19h</td>
+                                <td>Ciel</td>
+                                <td>160</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/bagworm.png" width="70%"></center></td>
+                                <td>Psyché</th>
+                                <td>Toute l'année</td>
+                                <td>Toute la journée</td>
+                                <td>Arbres</td>
+                                <td>600</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/flea.png" width="70%"></center></td>
+                                <td>Puce</th>
+                                <td>d'avril à novembre</td>
+                                <td>Toute la journée</td>
+                                <td>Sur les villageois</td>
+                                <td>70</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/stinkbug.png" width="70%"></center></td>
+                                <td>Punaise</th>
+                                <td>de mars à octobre</td>
+                                <td>Toute la journée</td>
+                                <td>Fleurs</td>
+                                <td>120</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/giant-water-bug.png" width="70%"></center></td>
+                                <td>Punaise d'eau géante</th>
+                                <td>d'avril à septembre</td>
+                                <td>19h - 8h</td>
+                                <td>Surface de l'eau</td>
+                                <td>2000</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/rosalia-batesi-beetle.png" width="70%"></center></td>
+                                <td>Rosalia batesi</th>
+                                <td>de mai à juin</td>
+                                <td>Toute la journée</td>
+                                <td>Souches d'arbres</td>
+                                <td>3000</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/grasshopper.png" width="70%"></center></td>
+                                <td>Sauterelle</th>
+                                <td>de juillet à septembre</td>
+                                <td>8h - 17h</td>
+                                <td>Sol</td>
+                                <td>160</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/Scarab-beetle.png" width="70%"></center></td>
+                                <td>Scarabée</th>
+                                <td>de juillet à août</td>
+                                <td>23h - 8h</td>
+                                <td>Arbres</td>
+                                <td>10000</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/horned-atlas.png" width="70%"></center></td>
+                                <td>Sacarabée atlas</th>
+                                <td>de juillet à août</td>
+                                <td>17h - 8h</td>
+                                <td>Palmiers</td>
+                                <td>8000</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/Blue-Weevil-Beetle.png" width="70%"></center></td>
+                                <td>Scarabée bleu</th>
+                                <td>de juillet à août</td>
+                                <td>Toute la journée</td>
+                                <td>Arbres</td>
+                                <td>800</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/horned-elephant.png" width="70%"></center></td>
+                                <td>Scarabée éléphant</th>
+                                <td>de juillet à août</td>
+                                <td>17h - 8h</td>
+                                <td>Palmiers</td>
+                                <td>8000</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/horned-Goliath.png" width="70%"></center></td>
+                                <td>Sacrabée goliath</th>
+                                <td>de juin à septembre</td>
+                                <td>17h - 8h</td>
+                                <td>Palmiers</td>
+                                <td>8000</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/horned-Hercule.png" width="70%"></center></td>
+                                <td>Scarabée hercule</th>
+                                <td>de juillet à août</td>
+                                <td>17h - 8h</td>
+                                <td>Palmiers</td>
+                                <td>12000</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/horned-dynastid.png" width="70%"></center></td>
+                                <td>Scarabée kabuto</th>
+                                <td>de juillet à août</td>
+                                <td>17h - 8h</td>
+                                <td>Arbres</td>
+                                <td>1350</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/scorpion.png" width="70%"></center></td>
+                                <td>Scorpion</th>
+                                <td>de mai à octobre</td>
+                                <td>19h - 4h</td>
+                                <td>Sol</td>
+                                <td>8000</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/red-dragonfly.png" width="70%"></center></td>
+                                <td>Sympetrum</th>
+                                <td>de septembre à octobre</td>
+                                <td>8h - 19h</td>
+                                <td>Ciel</td>
+                                <td>180</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/tarantula.png" width="70%"></center></td>
+                                <td>Tarentule</th>
+                                <td>de novembre à avril</td>
+                                <td>19h - 4h</td>
+                                <td>Sol</td>
+                                <td>8000</td>
+                                <td>Très rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/mole-cricket.png" width="70%"></center></td>
+                                <td>Taupe-grillon</th>
+                                <td>de novembre à mai</td>
+                                <td>Toute la journée</td>
+                                <td>Sous la terre</td>
+                                <td>500</td>
+                                <td>Commun</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/queen-alexandras-birdwing.png" width="70%"></center></td>
+                                <td>Troides alexandrae</th>
+                                <td>de mai à septembre</td>
+                                <td>8h - 16h</td>
+                                <td>Ciel</td>
+                                <td>4000</td>
+                                <td>Rare</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/rajah-brookes-birdwing.png" width="70%"></center></td>
+                                <td>Troides Brookiana</th>
+                                <td>d'avril à septembre et de décembre à février</td>
+                                <td>8h - 17h</td>
+                                <td>Ciel</td>
+                                <td>2500</td>
+                                <td>Rare</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><a href="#top">Retour en haut</a></p>
+                </div>
+<!--                 <div class="w3-third w3-container">
+                    <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+                    <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+                </div> -->
+            </div>
+            <a id="coquillages"></a><div class="w3-row w3-padding-64">
+                <div class="w3-twothird w3-container">
+                    <h1 class="w3-text-teal">Table des coquillages 🐚</h1>
+                    <p>Les coquillages sont de petits objets trouvables sur la plage, en bord de mer, apparaissant dans toute la série Animal Crossing. <br>
+                    Il sont présents tous les jours sur la plage et à tous moments de la journée, certains sont plus rares que d'autres. Il arrive très souvent que les joueurs ramassent des coquillages afin de les revendre pour gagner quelques clochettes, lorsqu'ils en sont à court.</p>
+                    <table class="sortable-theme-light" data-sortable style="width:100%">
+                        <thead class='thead-light'>
+                            <tr>
+                                <th><center>Icône</center></th>
+                                <th><center>Nom</center></th>
+                                <th><center>Lieu</center></th>
+                                <th><center>Prix</center></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><center><img src="./images/benitier-geant.png" width="35%"></center></td>
+                                <td>Bénitier géant</td>
+                                <td>Sur la plage</td>
+                                <td>900 </td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/branche-de-corail.png" width="35%"></center></td>
+                                <td>Branche de corail</td>
+                                <td>Sur la plage</td>
+                                <td>500 </td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/clypeastre.png" width="35%"></center></td>
+                                <td>Clypéastre</td>
+                                <td>Sur la plage</td>
+                                <td>120 </td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/conque.png" width="35%"></center></td>
+                                <td>Conque</td>
+                                <td>Sur la plage</td>
+                                <td>700 </td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/escargot-de-mer.png" width="35%"></center></td>
+                                <td>Escargot de mer</td>
+                                <td>Sur la plage</td>
+                                <td>180 </td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/palourde-japonaise.png" width="35%"></center></td>
+                                <td>Palourde japonaise</td>
+                                <td>Dans le sable</td>
+                                <td>100 </td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/peigne-de-venus.png" width="35%"></center></td>
+                                <td>Peigne de Vénus</td>
+                                <td>Sur la plage</td>
+                                <td>300 </td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/porcelaine.png" width="35%"></center></td>
+                                <td>Porcelaine</td>
+                                <td>Sur la plage</td>
+                                <td>60 </td>
+                            </tr>   
+                        </tbody>
+                    </table>  
+                    <p><a href="#top">Retour en haut</a></p>
+                </div>
+<!--                 <div class="w3-third w3-container">
+                    <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+                    <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+                </div> -->
+            </div>
+            <a id="plongee"></a><div class="w3-row w3-padding-64">
+                <div class="w3-twothird w3-container">
+                    <h1 class="w3-text-teal">Table des créature marines 🐙</h1>
+                    <p>Que ce soit dans les rivières, les lacs ou l'océan, une multitude d'espèces de poisson nagent dans les fonds marins durant toutes les saisons. <br>
+                    Certains sont plus présents que d'autres et il est compliqué de compléter l'aquarium de votre musée de A à Z sans connaître ces informations cruciales. <br> 
+                    Pour les clochettes ou pour le musée, voici la liste complète de tous les poissons dans Animal Crossing New Horizons ! Ceux-ci sont classés par saison, donc soyez un peu aventurier et fouiller ce guide pour trouver votre bonheur ! <br>
+                    (n'hésitez pas à faire un CTRL+F et de taper le nom du poisson que vous cherchez pour le trouver plus facilement)</p>
+                    <table class="sortable-theme-light" data-sortable style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>Icône</th>
+                                <th>Créatures</th>
+                                <th>Mois</th>
+                                <th>Heures</th>
+                                <th>Clochettes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-sea-grapes-crop.png" width="65%"></center></td>
+                                <td>Algue raisin de mer</td>
+                                <td>Juin à septembre</td>
+                                <td>Toute la journée</td>
+                                <td>900</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-sea-anemone-crop.png" width="65%"></center></td>
+                                <td>Anémone de mer</td>
+                                <td>Toute l’année</td>
+                                <td>Toute la journée</td>
+                                <td>500</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-spotted-garden-eel-crop.png" width="65%"></center></td>
+                                <td>Anguille de jardin</td>
+                                <td>Mai à octobre</td>
+                                <td>4h à 21h</td>
+                                <td>1,100</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-acorn-barnacle-crop.png" width="65%"></center></td>
+                                <td>Balane</td>
+                                <td>Toute l’année</td>
+                                <td>Toute la journée</td>
+                                <td>600</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-giant-isopod-crop.png" width="65%"></center></td>
+                                <td>Bathynome géant</td>
+                                <td>Juillet à octobre</td>
+                                <td>9h à 16h et 21h à 4h</td>
+                                <td>12,000</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-gigas-giant-clam-crop.png" width="65%"></center></td>
+                                <td>Bénitier colossal</td>
+                                <td>Mai à septembre</td>
+                                <td>Toute la journée</td>
+                                <td>15,000</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-whelk-crop.png" width="65%"></center></td>
+                                <td>Bulot</td>
+                                <td>Toute l’année</td>
+                                <td>Toute la journée</td>
+                                <td>1,000</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-firefly-squid-crop.png" width="65%"></center></td>
+                                <td>Calmar luciole</td>
+                                <td>Mars à juin</td>
+                                <td>21h à 4h</td>
+                                <td>1,400</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-sea-pig-crop.png" width="65%"></center></td>
+                                <td>Cochon de mer</td>
+                                <td>Novembre à février</td>
+                                <td>16h à 9h</td>
+                                <td>10,000</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-sea-cucumber-crop.png" width="65%"></center></td>
+                                <td>Concombre de mer</td>
+                                <td>Novembre à avril</td>
+                                <td>Toute la journée</td>
+                                <td>500</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-venus-flower-basket-crop.png" width="35%"></center></td>
+                                <td>Corbeille de Vénus</td>
+                                <td>Octobre à février</td>
+                                <td>Toute la journée</td>
+                                <td>5,000</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-spider-crab-crop.png" width="65%"></center></td>
+                                <td>Crabe-araignée géant</td>
+                                <td>Mars et avril</td>
+                                <td>Toute la journée</td>
+                                <td>12,000</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-gazami-crab-crop.png" width="65%"></center></td>
+                                <td>Crabe gazami</td>
+                                <td>Juin à novembre</td>
+                                <td>Toute la journée</td>
+                                <td>2,200</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-snow-crab-crop.png" width="65%"></center></td>
+                                <td>Crabe des neiges</td>
+                                <td>Novembre à avril</td>
+                                <td>Toute la journée</td>
+                                <td>6,000</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-dungeness-crab-crop.png" width="65%"></center></td>
+                                <td>Crabe de Dungeness</td>
+                                <td>Novembre à mai</td>
+                                <td>Toute la journée</td>
+                                <td>1,900</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-red-king-crab-crop.png" width="65%"></center></td>
+                                <td>Crabe royal</td>
+                                <td>Novembre à mars</td>
+                                <td>Toute la journée</td>
+                                <td>8,000</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-mantis-shrimp-crop.png" width="65%"></center></td>
+                                <td>Crevette-mante</td>
+                                <td>Toute l’année</td>
+                                <td>16h à 9h</td>
+                                <td>2,500</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-sweet-shrimp-crop.png" width="65%"></center></td>
+                                <td>Crevette nordique</td>
+                                <td>Septembre à février</td>
+                                <td>16h à 9h</td>
+                                <td>1,400</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-tiger-prawn-crop.png" width="65%"></center></td>
+                                <td>Crevette tigrée</td>
+                                <td>Juin à septembre</td>
+                                <td>16h à 9h</td>
+                                <td>3,000</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-sea-star-crop.png" width="65%"></center></td>
+                                <td>Étoile de mer</td>
+                                <td>Toute l’année</td>
+                                <td>Toute la journée</td>
+                                <td>500</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-sea-pineapple-crop.png" width="65%"></center></td>
+                                <td>Halocynthia roretzi</td>
+                                <td>Avril à août</td>
+                                <td>Toute la journée</td>
+                                <td>1,500</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-lobster-crop.png" width="65%"></center></td>
+                                <td>Homard</td>
+                                <td>Avril à juin, décembre et janvier</td>
+                                <td>Toute la journée</td>
+                                <td>4,500</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-oyster-crop.png" width="65%"></center></td>
+                                <td>Huitre</td>
+                                <td>Septembre à février</td>
+                                <td>Toute la journée</td>
+                                <td>1,100</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-pearl-oyster-crop.png" width="65%"></center></td>
+                                <td>Huître perlière</td>
+                                <td>Toute l’année</td>
+                                <td>Toute la journée</td>
+                                <td>2,800</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-spiny-lobster-crop.png" width="65%"></center></td>
+                                <td>Langouste</td>
+                                <td>Octobre à décembre</td>
+                                <td>21h à 4h</td>
+                                <td>5,000</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-sea-slug-crop.png" width="65%"></center></td>
+                                <td>Limace de mer</td>
+                                <td>Toute la journée</td>
+                                <td>Toute l’année</td>
+                                <td>600</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-horseshoe-crab-crop.png" width="65%"></center></td>
+                                <td>Limule</td>
+                                <td>Juillet à septembre</td>
+                                <td>21h à 4h</td>
+                                <td>2,500</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-moon-jellyfish-crop.png" width="65%"></center></td>
+                                <td>Méduse lune</td>
+                                <td>Juillet à septembre</td>
+                                <td>Toute la journée</td>
+                                <td>600</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-mussel-crop.png" width="45%"></center></td>
+                                <td>Moule</td>
+                                <td>Juin à décembre</td>
+                                <td>Toute la journée</td>
+                                <td>1,500</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-chambered-nautilus-crop.png" width="65%"></center></td>
+                                <td>Nautilus pompilius</td>
+                                <td>Mars à juin et septembre à novembre</td>
+                                <td>16h à 9h</td>
+                                <td>1,800</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-abalone-crop.png" width="65%"></center></td>
+                                <td>Ormeau</td>
+                                <td>Juin à janvier</td>
+                                <td>16h à 9h</td>
+                                <td>2,000</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-sea-urchin-crop.png" width="65%"></center></td>
+                                <td>Oursin</td>
+                                <td>Mai à septembre</td>
+                                <td>Toute la journée</td>
+                                <td>1,700</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-slate-pencil-urchin-crop.png" width="65%"></center></td>
+                                <td>Oursin crayon</td>
+                                <td>Mai à septembre</td>
+                                <td>16h à 9h</td>
+                                <td>2,000</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-scallop-crop.png" width="65%"></center></td>
+                                <td>Pétoncle</td>
+                                <td>Toute l’année</td>
+                                <td>Toute la journée</td>
+                                <td>1,200</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/ACNH-perle.png" width="65%"></center></td>
+                                <td>Perle</td>
+                                <td>Toute l’année</td>
+                                <td>Toute la journée</td>
+                                <td>10,000</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-umbrella-octopus-crop.png" width="65%"></center></td>
+                                <td>Pieuvre parapluie</td>
+                                <td>Mars à mai et septembre à novembre</td>
+                                <td>Toute la journée</td>
+                                <td>6,000</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-octopus-crop.png" width="65%"></center></td>
+                                <td>Poulpe</td>
+                                <td>Toute l’année</td>
+                                <td>Toute la journée</td>
+                                <td>1,200</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-turban-shell-crop.png" width="65%"></center></td>
+                                <td>Turbo</td>
+                                <td>Mars à mai et septembre à décembre</td>
+                                <td>Toute la journée</td>
+                                <td>1,000</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-vampire-squid-crop.png" width="65%"></center></td>
+                                <td>Vampire des abysses</td>
+                                <td>Mai à août</td>
+                                <td>16h à 9h</td>
+                                <td>10,000</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-flatworm-crop.png" width="65%"></center></td>
+                                <td>Ver plat</td>
+                                <td>Août à septembre</td>
+                                <td>16h à 9h</td>
+                                <td>700</td>
+                            </tr>
+                            <tr>
+                                <td><center><img src="./images/animal-crossing-new-horizons-guide-sea-creature-icon-seaweed-crop.png" width="65%"></center></td>
+                                <td>Wakame</td>
+                                <td>Octobre à juillet</td>
+                                <td>Toute la journée</td>
+                                <td>600</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><a href="#top">Retour en haut</a></p>
+                </div>
+<!--                 <div class="w3-third w3-container">
+                    <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+                    <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+                </div> -->
+            </div>
+            <a id="fossiles"></a><div class="w3-row w3-padding-64">
+                <div class="w3-twothird w3-container">
+                    <h1 class="w3-text-teal">Table des fossiles 🦖</h1>
+                    <p>Les fossiles sont des ossements de dinosaures et autres qui ont pour certains des prix inestimables ! Ils pourront vous permettre de compléter votre musée ou encore de vous faire des clochettes pour rembourser les agrandissements de votre maison. <br>
+                    Ce guide vous aidera à savoir leur prix de vente et surtout le nom de fossile possible dans Animal Crossing New Horizons !</p>
+                    <table class="sortable-theme-light" data-sortable style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>Nom du Fossile</th>
+                                <th>Partie(s) du fossile</th>
+                                <th>Prix de revente</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Acanthostéga</td>
+                                <td>Partie unique</td>
+                                <td>2000</td>
+                            </tr>
+                            <tr>
+                                <td>Ambre</th>
+                                <td>Partie unique</td>
+                                <td>1200</td>
+                            </tr>
+                            <tr>
+                                <td>Ammonite</th>
+                                <td>Partie unique</td>
+                                <td>1100</td>
+                            </tr>
+                            <tr>
+                                <td>Ankylosaure</th>
+                                <td>Crâne</td>
+                                <td>3000</td>
+                            </tr>
+                            <tr>
+                                <td>Ankylosaure</th>
+                                <td>Torse</td>
+                                <td>3000</td>
+                            </tr>
+                            <tr>
+                                <td>Ankylosaure</th>
+                                <td>Queue</td>
+                                <td>2500</td>
+                            </tr>
+                            <tr>
+                                <td>Anomalocaris</th>
+                                <td>Partie unique</td>
+                                <td>2000</td>
+                            </tr>
+                            <tr>
+                                <td>Archélon</th>
+                                <td>Crâne</td>
+                                <td>4000</td>
+                            </tr>
+                            <tr>
+                                <td>Archélon</th>
+                                <td>Queue</td>
+                                <td>3500</td>
+                            </tr>
+                            <tr>
+                                <td>Archéoptéryx</th>
+                                <td>Partie unique</td>
+                                <td>1300</td>
+                            </tr>
+                            <tr>
+                                <td>Australopithèque</th>
+                                <td>Partie unique</td>
+                                <td>1100</td>
+                            </tr>
+                            <tr>
+                                <td>Brachiosaure</th>
+                                <td>Crâne</td>
+                                <td>6000</td>
+                            </tr>
+                            <tr>
+                                <td>Brachiosaure</th>
+                                <td>Torse</td>
+                                <td>5000</td>
+                            </tr>
+                            <tr>
+                                <td>Brachiosaure</th>
+                                <td>Bassin</td>
+                                <td>5000</td>
+                            </tr>
+                            <tr>
+                                <td>Brachiosaure</th>
+                                <td>Queue</td>
+                                <td>5500</td>
+                            </tr>
+                            <tr>
+                                <td>Brontothérium</th>
+                                <td>Crâne</td>
+                                <td>4500</td>
+                            </tr>
+                            <tr>
+                                <td>Brontothérium</th>
+                                <td>Corps</td>
+                                <td>3000</td>
+                            </tr>
+                            <tr>
+                                <td>Brontothérium</th>
+                                <td>Queue</td>
+                                <td>3500</td>
+                            </tr>
+                            <tr>
+                                <td>Corpolithe</th>
+                                <td>Partie unique</td>
+                                <td>1100</td>
+                            </tr>
+                            <tr>
+                                <td>Dimétrodon</th>
+                                <td>Crâne</td>
+                                <td>5500</td>
+                            </tr>
+                            <tr>
+                                <td>Dimétrodon</th>
+                                <td>Corps</td>
+                                <td>5000</td>
+                            </tr>
+                            <tr>
+                                <td>Diplodocus</th>
+                                <td>Crâne</td>
+                                <td>5500</td>
+                            </tr>
+                            <tr>
+                                <td>Diplodocus</th>
+                                <td>Cou</td>
+                                <td>5000</td>
+                            </tr>
+                            <tr>
+                                <td>Diplodocus</th>
+                                <td>Torse</td>
+                                <td>4000</td>
+                            </tr>
+                            <tr>
+                                <td>Diplodocus</th>
+                                <td>Bassin</td>
+                                <td>4000</td>
+                            </tr>
+                            <tr>
+                                <td>Diplodocus</th>
+                                <td>Queue</td>
+                                <td>4500</td>
+                            </tr>
+                            <tr>
+                                <td>Diplodocus</th>
+                                <td>Pointe de queue</td>
+                                <td>4000</td>
+                            </tr>
+                            <tr>
+                                <td>Déinonychus</th>
+                                <td>Torse</td>
+                                <td>3000</td>
+                            </tr>
+                            <tr>
+                                <td>Déinonychus</th>
+                                <td>Queue</td>
+                                <td>2500</td>
+                            </tr>
+                            <tr>
+                                <td>Dunkléostéus</th>
+                                <td>Partie unique</td>
+                                <td>3500</td>
+                            </tr>
+                            <tr>
+                                <td>Empreinte de dinosaure</th>
+                                <td>Partie unique</td>
+                                <td>1000</td>
+                            </tr>
+                            <tr>
+                                <td>Eusthénoptéron</th>
+                                <td>Partie unique</td>
+                                <td>2000</td>
+                            </tr>
+                            <tr>
+                                <td>Iguanodon</th>
+                                <td>Crâne</td>
+                                <td>4000</td>
+                            </tr>
+                            <tr>
+                                <td>Iguanodon</th>
+                                <td>Torse</td>
+                                <td>3500</td>
+                            </tr>
+                            <tr>
+                                <td>Iguanodon</th>
+                                <td>Queue</td>
+                                <td>3000</td>
+                            </tr>
+                            <tr>
+                                <td>Juramaia</th>
+                                <td>Partie unique</td>
+                                <td>1500</td>
+                            </tr>
+                            <tr>
+                                <td>Mammouth</th>
+                                <td>Crâne</td>
+                                <td>3000</td>
+                            </tr>
+                            <tr>
+                                <td>Mammouth</th>
+                                <td>Corps</td>
+                                <td>2500</td>
+                            </tr>
+                            <tr>
+                                <td>Mandibule d'hélicoprion</th>
+                                <td>Partie unique</td>
+                                <td>1000</td>
+                            </tr>
+                            <tr>
+                                <td>Megaceros</th>
+                                <td>Partie gauche</td>
+                                <td>4000</td>
+                            </tr>
+                            <tr>
+                                <td>Megaceros</th>
+                                <td>Partie droite</td>
+                                <td>4000</td>
+                            </tr>
+                            <tr>
+                                <td>Myllokunmingia</th>
+                                <td>Partie unique</td>
+                                <td>1500</td>
+                            </tr>
+                            <tr>
+                                <td>Ophtalmosaure</th>
+                                <td>Crâne</td>
+                                <td>2500</td>
+                            </tr>
+                            <tr>
+                                <td>Ophtalmosaure</th>
+                                <td>Corps</td>
+                                <td>2000</td>
+                            </tr>
+                            <tr>
+                                <td>Pachycéphalosaure</th>
+                                <td>Crâne</td>
+                                <td>4000</td>
+                            </tr>
+                            <tr>
+                                <td>Pachycéphalosaure</th>
+                                <td>Queue</td>
+                                <td>3500</td>
+                            </tr>
+                            <tr>
+                                <td>Parasaurolophus</th>
+                                <td>Crâne</td>
+                                <td>4000</td>
+                            </tr>
+                            <tr>
+                                <td>Parasaurolophus</th>
+                                <td>Torse</td>
+                                <td>3500</td>
+                            </tr>
+                            <tr>
+                                <td>Parasaurolophus</th>
+                                <td>Queue</td>
+                                <td>3000</td>
+                            </tr>
+                            <tr>
+                                <td>Plésiosaure</th>
+                                <td>Crâne</td>
+                                <td>4000</td>
+                            </tr>
+                            <tr>
+                                <td>Plésiosaure</th>
+                                <td>Corps</td>
+                                <td>4500</td>
+                            </tr>
+                            <tr>
+                                <td>Plésiosaure</th>
+                                <td>Queue</td>
+                                <td>4500</td>
+                            </tr>
+                            <tr>
+                                <td>Ptéranodon</th>
+                                <td>Corps</td>
+                                <td>4000</td>
+                            </tr>
+                            <tr>
+                                <td>Ptéranodon</th>
+                                <td>Aile gauche</td>
+                                <td>4500</td>
+                            </tr>
+                            <tr>
+                                <td>Ptéranodon</th>
+                                <td>Aile droite</td>
+                                <td>4500</td>
+                            </tr>
+                            <tr>
+                                <td>Quetzal</th>
+                                <td>Corps</td>
+                                <td>4500</td>
+                            </tr>
+                            <tr>
+                                <td>Quetzal</th>
+                                <td>Aile gauche</td>
+                                <td>5000</td>
+                            </tr>
+                            <tr>
+                                <td>Quetzal</th>
+                                <td>Aile droite</td>
+                                <td>5000</td>
+                            </tr>
+                            <tr>
+                                <td>Smilodon</th>
+                                <td>Crâne</td>
+                                <td>2500</td>
+                            </tr>
+                            <tr>
+                                <td>Smilodon</th>
+                                <td>Queue</td>
+                                <td>2000</td>
+                            </tr>
+                            <tr>
+                                <td>Spinosaure</th>
+                                <td>Crâne</td>
+                                <td>4500</td>
+                            </tr>
+                            <tr>
+                                <td>Spinosaure</th>
+                                <td>Corps</td>
+                                <td>5000</td>
+                            </tr>
+                            <tr>
+                                <td>Spinosaure</th>
+                                <td>Queue</td>
+                                <td>4000</td>
+                            </tr>
+                            <tr>
+                                <td>Stégosaure</th>
+                                <td>Crâne</td>
+                                <td>5000</td>
+                            </tr>
+                            <tr>
+                                <td>Stégosaure</th>
+                                <td>Corps</td>
+                                <td>4500</td>
+                            </tr>
+                            <tr>
+                                <td>Stégosaure</th>
+                                <td>Queue</td>
+                                <td>4000</td>
+                            </tr>
+                            <tr>
+                                <td>Tyrannosaure Rex</th>
+                                <td>Crâne</td>
+                                <td>6000</td>
+                            </tr>
+                            <tr>
+                                <td>Tyrannosaure Rex</th>
+                                <td>Corps</td>
+                                <td>5500</td>
+                            </tr>
+                            <tr>
+                                <td>Tyrannosaure Rex</th>
+                                <td>Queue</td>
+                                <td>5000</td>
+                            </tr>
+                            <tr>
+                                <td>Tricératops</th>
+                                <td>Crâne</td>
+                                <td>5500</td>
+                            </tr>
+                            <tr>
+                                <td>Tricératops</th>
+                                <td>Corps</td>
+                                <td>5000</td>
+                            </tr>
+                            <tr>
+                                <td>Tricératops</th>
+                                <td>Queue</td>
+                                <td>4500</td>
+                            </tr>
+                            <tr>
+                                <td>Trilobite</th>
+                                <td>Partie unique</td>
+                                <td>1300</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><a href="#top">Retour en haut</a></p>
+                </div>
+<!--                 <div class="w3-third w3-container">
+                    <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+                    <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+                </div> -->
+            </div>
+            <a id="outils-or"></a><div class="w3-row w3-padding-64">
+                <div class="w3-twothird w3-container">
+                    <h1 class="w3-text-teal">Outils en or ⚜️</h1>
+                        <p>Voici les conditions à remplir pour débloquer les six outils en or :</p>
+                    <ul class="liste-default-jv">
+                        <li><strong>Arrosoir en or :</strong> <em>Obtenir le score de 5 étoiles de réputation pour votre île.</em></li>
+                        <li><strong>Canne à pêche en or :</strong> <em>Avoir capturé l’ensemble des <a href="#poissons">poissons</a> du jeu au moins une fois.</em></li>
+                        <li><strong>Filet en or :</strong> <em>Avoir capturé l’ensemble des <a href="#insectes">insectes</a> du jeu au moins une fois.</em></li>
+                        <li><strong>Hache en or :</strong> <em>Avoir cassé 100 haches (peu importe la qualité).</em></li>
+                        <li><strong>Lance-pierre en or :</strong> <em>Faire éclater 300 ballons cadeaux.</em></li>
+                        <li><strong>Pelle en or :</strong> <em>Aider Gulliver 30 fois.</em></li>
+                        <li><strong>(?) Combinaison en or :</strong> <em>???.</em></li>
+                    </ul>
+                    <p>Lorsque vous aurez atteint les objectifs, vous recevrez, peu après, le plan de fabrication dudit objet débloqué dans un  <em><strong>ballon cadeau doré</em></strong>.</p>
+                    <p><strong>Pour les crafter, il vous faudra posséder l’objet en question dans la qualité la plus élevée (Arrosoir / Canne à pêche / Filet / Hache / Lance-pierre / Pelle ) et le combiner avec une pépite d'or.</strong> Vous trouverez ces pépites très rarement dans les rochers ou dans les ballons cadeaux :</p>
+                    <p>Qui dit plans dit ré-utilisation : vous l’aurez donc compris, les objets en or ont une durée de vie, certes plus grande que les autres outils de leur catégorie, mais ils se briseront malgré tout.</p>
+                    <p><a href="#top">Retour en haut</a></p>
+                </div>
+<!--                 <div class="w3-third w3-container">
+                    <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+                    <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+                </div> -->
+            </div>
+            <a id="arbres-clochettes"></a><div class="w3-row w3-padding-64">
+                <div class="w3-twothird w3-container">
+                    <h1 class="w3-text-teal">Arbres à clochettes 💰: des clochettes qui poussent comme de l'oseille !</h1>
+                                                
+                        <p>Au cours de vos parties sur Animal Crossing New Horizons, il vous sera possible de trouver un point lumineux au sol. Si vous creusez à cet endroit avec la pelle, vous ramasserez un sac de 1000 clochettes.</p>
+                        
+                        <img src="./images/screenshots/1584887514-1446-capture-d-ecran.png">
+                        
+                        <p>Si vous replantez ce sac dans le trou que vous venez de créer, vous aurez une chance de faire pousser, quelques jours plus tard, un <strong>arbre à clochettes</strong>.</p>
+                       
+                        <img src="./images/screenshots/1584887537-4853-capture-d-ecran.png">
+                        
+                        <p>Cet arbre portera trois sacs contenant chacun le montant initialement planté. Ainsi, si vous plantez 1000 clochettes, vous pourriez en récolter 3000. Si vous en plantez 10000, vous en récupérerez potentiellement 30000 !</p>
+                       
+                        <img src="./images/screenshots/1584887568-3253-capture-d-ecran.png">
+                       
+                        <p>Attention cependant, <strong>cet arbre à clochettes ne produira plus de clochettes une seconde fois</strong>, il deviendra un arbre tout à fait basique après votre récolte. </p>
+
+                    <p><a href="#top">Retour en haut</a></p>
+                </div>
+<!--                 <div class="w3-third w3-container">
+                    <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+                    <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+                </div> -->
+            </div>
+            <a id="navets"></a><div class="w3-row w3-padding-64">
+                <div class="w3-twothird w3-container">
+                    <h1 class="w3-text-teal">Trading de navets 📊</h1>
+                        
+                        <p>Enfin, notez que vous avez la <strong>possibilité d’acheter et de vendre des navets sur l’île de vos amis</strong>, notamment si le prix d’achat/revente est plus intéressant là bas. Communiquez régulièrement avec vos amis jouant à Animal Crossing New Horizons au sujet des navets pour savoir où faire le meilleur profit !</p>
+                        
+                        <p>Le dimanche matin dans Animal Crossing New Horizons, parcourez votre île jusqu’à trouver Porcelette. C'est le seul jour où ce personnage apparaît pour vous permettre de constituer votre stock spéculatif de navets de la semaine !</p>
+                        
+                        <img src="./images/screenshots/1584888958-8798-capture-d-ecran.png">
+                        
+                        <p>Porcelette vous vendra <strong>des navets à un prix allant de 80 à 120 clochettes</strong>.</p>
+                        
+                        <img src="./images/screenshots/1584888958-6725-capture-d-ecran.png">
+                        
+                        <p>Ces navets ont pour but d’être vendus auprès de Méli et Mélo. Cependant, le prix de vente des navets fluctuent deux fois par jour (matin et après-midi). Ainsi, il va vous falloir <strong>spéculer sur le prix de vente de vos navets acquis plus tôt afin d’en tirer le maximum de bénéfices</strong>.</p>
+                        
+                        <img src="./images/screenshots/1584888958-585-capture-d-ecran.png">
+                        
+                        <p>Notez bien, que les navets ne peuvent être vendus le dimanche. Également, <strong>vos navets d'Animal Crossing New Horizons pourriront si vous ne les avez pas vendus d’ici le dimanche suivant</strong> leur achat ou si vous changez l’heure de votre console.</p>
+                        
+                        <img src="./images/screenshots/1584888958-9353-capture-d-ecran.png">                     
+
+                    <p><a href="#top">Retour en haut</a></p>
+                </div>
+<!--                 <div class="w3-third w3-container">
+                    <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+                    <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+                </div> -->
+            </div>
+            <a id="etoiles"></a><div class="w3-row w3-padding-64">
+                <div class="w3-twothird w3-container">
+                    <h1 class="w3-text-teal">Le secret des étoiles filantes 💫</h1>
+                        
+                        <p>Dans Animal Crossing New Horizons, il vous sera parfois possible d’assister à une <strong>nuit d’étoiles filantes</strong>. Cet événement est assez rare mais sera toujours synonyme d’une visite de Céleste, la sœur de Thibou, le conservateur du Musée qui vous remet notamment les plans de la pelle.</p>
+                        
+                        <img src="./images/screenshots/1584960546-7675-capture-d-ecran.png">
+                        
+                        <p>Ne manquez pas de lui parler, cette dernière<strong> vous parlera des étoiles filantes et vous expliquera que vous pouvez faire des voeux en regardant le ciel</strong> puis en cliquant sur A pendant qu’une étoile passe. </p>
+                        
+                        <img src="./images/screenshots/1584960567-8702-capture-d-ecran.png">
+                        
+                        <p>Si vous avez réussi, cela vous permettra de <strong>récupérer des fragments d’étoile le lendemain sur la plage</strong> à hauteur du nombre de vœux que vous avez fait avec un maximum de 20 fragments tout de même.</p>
+                        
+                        <img src="./images/screenshots/1584960602-3662-capture-d-ecran.png">
+                        
+                        <p>Elle vous confiera également <strong>un plan vous permettant de créer une baguette étoile</strong>. Celle-ci vous permettra d’y assigner jusqu’à huit tenues complètes différentes puis de pouvoir les équiper quand et où bon vous semble. Pour la confectionner, il vous faudra vous servir des fameux fragments d’étoile.</p>
+                        
+                        <img src="./images/screenshots/1584960638-5184-capture-d-ecran.png">
+
+                    <p><a href="#top">Retour en haut</a></p>
+                </div>
+<!--                 <div class="w3-third w3-container">
+                    <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+                    <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+                </div> -->
+            </div>
+        </body>
+    </html>

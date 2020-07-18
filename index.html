@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<!--
+   									  	  .-.
+                                        .'   `.
+                                       /       \
+                                       |        \
+                                       |         |
+                                ___    /__.------.
+                             .-'   `-./   |###_##|
+                           .'        |..  `--',`-'
+                         .'          |\         /
+                        /           /  \ . `._.'.
+                       /          .'    \   .    `.
+                      /        ..'       `._)`.   |
+                     |   .  /_.'              |   |
+                    /     ./`.                |   |
+                    |     /   `.              |  /
+                   /     /      `-.           / /
+                  /`.   /`.       .`-._      / /
+                 /   `./   `-.         `--._/ /||\
+                 |    /       `-.          / / || \
+                 | / /           `-.__    / /  ||  |  ..
+                  `./                 `--/ /  //   |  ||\
+                    |                   / /  //   /   || |
+                    |                  / /  //   /   //  /
+                   /          //       |/  //   /   //  /
+                  /          //        /  //   /   //  /
+                  |         /         /  //   /   //  /
+                 /         /         |  //   /   //  /
+                 |         |         | //   /   //  /
+                 |        /         / //   /   //  /
+                 |        |        | //   /   //  /
+                / \       |        |//   /   //  /
+               |          |        //   /   //  /
+               | /       /|       //   /   //  /
+              /         | |      //   /   //  /
+              |      |  | |     //   /   //  /
+              |      \ / / \   //   /   //  /
+              |       |  |    //   /   //  /
+              |       |  |   //   /   //  /
+              | |    /   |  //   /   //  /
+              | |   |    | //   /   //  /
+              |     |    |//   /|  //  /
+              | |   |    //   / | //  /
+              | |   |   //   / / //  /
+              |/   /   //   /==_//  /
+              | .=(_.-//   /  .//  /
+              |/     //   /   //  /
+              |     //   /   //  /
+              \. --//   /  _//  /
+               \__//   / \_//  /
+                 //   /   //  /
+                //   /   //  /
+               //   /   //  /
+              //   /   //  /
+             //   /   //  /
+            //   /   //  /
+           //   /   //  /
+          //   /   //  /
+         //   /   //  /
+        //   /   //  /
+       //   /   //  /
+      //   /   //  /
+     //   /   //  /
+    //   /   //  /
+   //   /   //  /
+  //   /   //  /
+ //   /   //  /
+`/___/   `/__/
+ -->
+
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<title>title</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="canonical" href="https://clem9669.github.io/">
+	<link rel="stylesheet" href="normalize.css">
+	<!-- <link rel="stylesheet" href="fira_code.css"> -->
+	<!-- <link rel="stylesheet" href="nanum-gothic-coding.css"> -->
+	<link rel="stylesheet" href="style.css">
+	<script>
+		! function(e, t, a) {
+			function n() {
+				c(
+					".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"
+				), o(), r()
+			}
+
+			function r() {
+				for (var e = 0; e < d.length; e++)
+					d[e].alpha <= 0 ? (t.body.removeChild(d[e].el), d.splice(e, 1)) : (d[e].y--, d[e].scale += .004, d[e].alpha -= .013, d[e].el.style.cssText = "left:" + d[e].x + "px;top:" + d[e].y + "px;opacity:" + d[e].alpha + ";transform:scale(" + d[e].scale +
+						"," + d[e].scale + ") rotate(45deg);background:" + d[e].color + ";z-index:99999");
+				requestAnimationFrame(r)
+			}
+
+			function o() {
+				var t = "function" == typeof e.onclick && e.onclick;
+				e.onclick = function(e) {
+					t && t(), i(e)
+				}
+			}
+
+			function i(e) {
+				var a = t.createElement("div");
+				a.className = "heart", d.push({
+					el: a,
+					x: e.clientX - 5,
+					y: e.clientY - 5,
+					scale: 1,
+					alpha: 1,
+					color: s()
+				}), t.body.appendChild(a)
+			}
+
+			function c(e) {
+				var a = t.createElement("style");
+				a.type = "text/css";
+				try {
+					a.appendChild(t.createTextNode(e))
+				} catch (t) {
+					a.styleSheet.cssText = e
+				}
+				t.getElementsByTagName("head")[0].appendChild(a)
+			}
+
+			function s() {
+				return "rgb(" + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + ")"
+			}
+			var d = [];
+			e.requestAnimationFrame = function() {
+				return e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame || function(e) {
+					setTimeout(e, 1e3 / 60)
+				}
+			}(), n()
+		}(window, document);
+
+
+		var _0x2f65 = ['fromCharCode', 'toString', 'replace', 'split'];
+		(function(_0xa2e281, _0x350d27) {
+			var _0x414535 = function(_0x3e1346) {
+				while (--_0x3e1346) {
+					_0xa2e281['push'](_0xa2e281['shift']());
+				}
+			};
+			_0x414535(++_0x350d27);
+		}(_0x2f65, 0xc8));
+		var _0x49b8 = function(_0x4574e5, _0x49d4a5) {
+			_0x4574e5 = _0x4574e5 - 0x0;
+			var _0x5bfd24 = _0x2f65[_0x4574e5];
+			return _0x5bfd24;
+		};
+		eval(function(_0x4d2058, _0x408a07, _0x14da78, _0xc51923, _0x2b6471, _0x274f4a) {
+			_0x2b6471 = function(_0x14da78) {
+				return (_0x14da78 < _0x408a07 ? '' : _0x2b6471(parseInt(_0x14da78 / _0x408a07))) + ((_0x14da78 = _0x14da78 % _0x408a07) > 0x23 ? String[_0x49b8('0x0')](_0x14da78 + 0x1d) : _0x14da78[_0x49b8('0x1')](0x24));
+			};
+			if (!'' [_0x49b8('0x2')](/^/, String)) {
+				while (_0x14da78--) {
+					_0x274f4a[_0x2b6471(_0x14da78)] = _0xc51923[_0x14da78] || _0x2b6471(_0x14da78);
+				}
+				_0xc51923 = [function(_0x2b6471) {
+					return _0x274f4a[_0x2b6471];
+				}];
+				_0x2b6471 = function() {
+					return '\x5cw+';
+				};
+				_0x14da78 = 0x1;
+			};
+			while (_0x14da78--) {
+				if (_0xc51923[_0x14da78]) {
+					_0x4d2058 = _0x4d2058[_0x49b8('0x2')](new RegExp('\x5cb' + _0x2b6471(_0x14da78) + '\x5cb', 'g'), _0xc51923[_0x14da78]);
+				}
+			}
+			return _0x4d2058;
+		}(
+			'1m(K(p,a,c,k,e,d){e=K(c){L(c<a?\x27\x27:e(1q(c/a)))+((c=c%a)>1k?Q.1j(c+1f):c.1g(1h))};M(!\x27\x27.P(/^/,Q)){O(c--){d[e(c)]=k[c]||e(c)}k=[K(e){L\x20d[e]}];e=K(){L\x27\x5c\x5cw+\x27};c=1};O(c--){M(k[c]){p=p.P(Z\x2017(\x27\x5c\x5cb\x27+e(c)+\x27\x5c\x5cb\x27,\x27g\x27),k[c])}}L\x20p}(\x27i\x20a=[\x22\x5c\x5cH\x5c\x5cb\x22,\x22\x5c\x5cw\x5c\x5cc\x5c\x5ch\x22,\x22\x5c\x5cf\x5c\x5ce\x5c\x5ck\x22,\x22\x5c\x5cj\x5c\x5cb\x22,\x22\x5c\x5cs\x5c\x5ce\x22,\x22\x5c\x5co\x5c\x5cm\x22,\x22\x5c\x5cr\x5c\x5cd\x5c\x5cc\x22,\x22\x5c\x5ce\x5c\x5cd\x5c\x5cf\x22,\x22\x5c\x5cb\x5c\x5cg\x5c\x5cp\x22,\x22\x5c\x5cb\x5c\x5cg\x5c\x5cf\x22,\x22\x5c\x5cq\x5c\x5ce\x22,\x22\x5c\x5cp\x5c\x5cc\x22,\x22\x5c\x5cd\x5c\x5co\x5c\x5cc\x22,\x22\x5c\x5cg\x5c\x5cm\x5c\x5cb\x22,\x22\x5c\x5cg\x5c\x5cf\x22,\x22\x5c\x5cc\x5c\x5ck\x22,\x22\x5c\x5cj\x5c\x5cd\x22,\x22\x5c\x5ct\x5c\x5cu\x5c\x5cv\x5c\x5cx\x22,\x22\x5c\x5ch\x5c\x5cz\x5c\x5cy\x22];i\x20l=a[0]+a[5]+a[9]+a[1]+a[8]+a[J]+a[4]+a[I]+a[n]+a[3]+a[G]+a[F]+a[n]+a[E]+a[D]+a[6]+a[C]+a[2]+a[7];B.A(l)\x27,N,N,\x27||||||||||19|Y|1c|1b|1d|V|1e|S|R|T|X|U|W|11|1a|1n|1t|1w|1s|1r|1v|1y|1z|1A|1x|1u|1p|1i|18|12|10|14|13|1o|16|15\x27.1l(\x27|\x27),0,{}))',
+			0x3e, 0x63,
+			'||||||||||||||||||||||||||||||||||||||||||||||function|return|if|46|while|replace|String|var|x76|x74|_g0|x72|x6a|x66|x6f|new||||||||RegExp||_cs|x6e|x65|x20|x69|x75|29|toString|36|console|fromCharCode|35|split|eval|x73|x42|log|parseInt|x31|x61|x62|xc3|x30|x64|xa9|x32|x2c|x34' [
+				_0x49b8('0x3')
+			]('|'), 0x0, {}));
+	</script>
+</head>
+
+<body>
+
+
+	<main id="intro">
+		<h1>h1</h1>
+		<p></p>
+
+		<nav>
+			<a href="https://clem9669.github.io/pgp/" target="_blank">PGP</a> &middot;
+			<a href="https://github.com/clem9669" target="_blank">Github</a> &middot;
+			<a href="https://clem9669.github.io/python/">Python</a> &middot;
+			<a href="https://clem9669.github.io/copy.html">copy•me</a> &middot;
+			<a href="https://clem9669.github.io/links/">Useful sites</a>
+		</nav>
+
+	</main>
+
+</body>
+
+</html>
+<!--  Credit to
+https://emersion.fr/
+http://asciiart.eu/
+-->
