@@ -5,7 +5,7 @@
     <link>https://clem9669.github.io/blog/page/</link>
     <description>Recent content in Pages on Clem9669 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 01 Nov 2017 13:18:45 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2020 19:28:52 +0200</lastBuildDate>
     
 	<atom:link href="https://clem9669.github.io/blog/page/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +13,7 @@
     <item>
       <title>About Bilberry</title>
       <link>https://clem9669.github.io/blog/page/about-bilberry/</link>
-      <pubDate>Wed, 01 Nov 2017 13:18:45 +0100</pubDate>
+      <pubDate>Sun, 26 Jul 2020 19:28:52 +0200</pubDate>
       
       <guid>https://clem9669.github.io/blog/page/about-bilberry/</guid>
       <description>Bilberry is a premium theme for the Hugo Static Website Builder.
@@ -24,9 +24,27 @@ It is full of little nice features, such as:
     <item>
       <title>Github</title>
       <link>https://clem9669.github.io/blog/page/github/</link>
-      <pubDate>Wed, 01 Nov 2017 13:17:56 +0100</pubDate>
+      <pubDate>Sun, 26 Jul 2020 19:28:42 +0200</pubDate>
       
       <guid>https://clem9669.github.io/blog/page/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTB</title>
+      <link>https://clem9669.github.io/blog/page/htb/</link>
+      <pubDate>Sat, 25 Jul 2020 19:33:40 +0200</pubDate>
+      
+      <guid>https://clem9669.github.io/blog/page/htb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lichess</title>
+      <link>https://clem9669.github.io/blog/page/lichess/</link>
+      <pubDate>Sat, 25 Jul 2020 19:28:42 +0200</pubDate>
+      
+      <guid>https://clem9669.github.io/blog/page/lichess/</guid>
       <description></description>
     </item>
     

@@ -5,10 +5,19 @@
     <link>https://clem9669.github.io/blog/link/</link>
     <description>Recent content in Links on Clem9669 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 01 Nov 2017 13:05:27 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2020 19:11:29 +0200</lastBuildDate>
     
 	<atom:link href="https://clem9669.github.io/blog/link/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hits</title>
+      <link>https://clem9669.github.io/blog/link/hits/</link>
+      <pubDate>Sun, 26 Jul 2020 19:11:29 +0200</pubDate>
+      
+      <guid>https://clem9669.github.io/blog/link/hits/</guid>
+      <description>&lt;p&gt;The easy way to know how many people are &lt;em&gt;&lt;strong&gt;viewing&lt;/strong&gt;&lt;/em&gt; your &lt;em&gt;GitHub projects&lt;/em&gt;!&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Duckduckgo.com</title>

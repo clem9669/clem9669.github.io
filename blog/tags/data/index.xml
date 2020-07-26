@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data on Clem9669 Blog</title>
+    <link>https://clem9669.github.io/blog/tags/data/</link>
+    <description>Recent content in data on Clem9669 Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 26 Jul 2020 19:11:29 +0200</lastBuildDate>
+    
+	<atom:link href="https://clem9669.github.io/blog/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hits</title>
+      <link>https://clem9669.github.io/blog/link/hits/</link>
+      <pubDate>Sun, 26 Jul 2020 19:11:29 +0200</pubDate>
+      
+      <guid>https://clem9669.github.io/blog/link/hits/</guid>
+      <description>&lt;p&gt;The easy way to know how many people are &lt;em&gt;&lt;strong&gt;viewing&lt;/strong&gt;&lt;/em&gt; your &lt;em&gt;GitHub projects&lt;/em&gt;!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
