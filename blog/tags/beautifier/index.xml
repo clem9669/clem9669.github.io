@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>beautifier on Clem9669 Blog</title>
+    <link>https://clem9669.github.io/blog/tags/beautifier/</link>
+    <description>Recent content in beautifier on Clem9669 Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 26 Jul 2020 23:05:33 +0200</lastBuildDate>
+    
+	<atom:link href="https://clem9669.github.io/blog/tags/beautifier/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Carbon App</title>
+      <link>https://clem9669.github.io/blog/article/carbon-app/</link>
+      <pubDate>Sun, 26 Jul 2020 23:05:33 +0200</pubDate>
+      
+      <guid>https://clem9669.github.io/blog/article/carbon-app/</guid>
+      <description>&lt;p&gt;Create and share beautiful images of your source code&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

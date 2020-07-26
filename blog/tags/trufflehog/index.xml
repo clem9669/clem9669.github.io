@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>trufflehog on Clem9669 Blog</title>
+    <link>https://clem9669.github.io/blog/tags/trufflehog/</link>
+    <description>Recent content in trufflehog on Clem9669 Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 23 Jul 2020 14:23:05 +0200</lastBuildDate>
+    
+	<atom:link href="https://clem9669.github.io/blog/tags/trufflehog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Looting Secret in GIT</title>
+      <link>https://clem9669.github.io/blog/article/looting-secret-git/</link>
+      <pubDate>Thu, 23 Jul 2020 14:23:05 +0200</pubDate>
+      
+      <guid>https://clem9669.github.io/blog/article/looting-secret-git/</guid>
+      <description>&lt;p&gt;There are tools which work remotely and locally for finding potentially sensitive files pushed to public repos.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

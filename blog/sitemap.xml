@@ -3,12 +3,72 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://clem9669.github.io/blog/page/about-bilberry/</loc>
-    <lastmod>2020-07-26T19:28:52+02:00</lastmod>
+    <loc>https://clem9669.github.io/blog/article/</loc>
+    <lastmod>2020-07-26T23:05:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clem9669.github.io/blog/author/</loc>
+    <lastmod>2020-07-26T23:05:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clem9669.github.io/blog/tags/beautifier/</loc>
+    <lastmod>2020-07-26T23:05:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clem9669.github.io/blog/article/carbon-app/</loc>
+    <lastmod>2020-07-26T23:05:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clem9669.github.io/blog/categories/</loc>
+    <lastmod>2020-07-26T23:05:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clem9669.github.io/blog/author/clem/</loc>
+    <lastmod>2020-07-26T23:05:33+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://clem9669.github.io/blog/</loc>
+    <lastmod>2020-07-26T23:05:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clem9669.github.io/blog/tags/code/</loc>
+    <lastmod>2020-07-26T23:05:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clem9669.github.io/blog/tags/github/</loc>
+    <lastmod>2020-07-26T23:05:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clem9669.github.io/blog/categories/link/</loc>
+    <lastmod>2020-07-26T23:05:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clem9669.github.io/blog/tags/render/</loc>
+    <lastmod>2020-07-26T23:05:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clem9669.github.io/blog/tags/snippet/</loc>
+    <lastmod>2020-07-26T23:05:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clem9669.github.io/blog/tags/</loc>
+    <lastmod>2020-07-26T23:05:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clem9669.github.io/blog/page/about-bilberry/</loc>
     <lastmod>2020-07-26T19:28:52+02:00</lastmod>
   </url>
   
@@ -28,17 +88,7 @@
   </url>
   
   <url>
-    <loc>https://clem9669.github.io/blog/categories/</loc>
-    <lastmod>2020-07-26T19:11:29+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://clem9669.github.io/blog/tags/data/</loc>
-    <lastmod>2020-07-26T19:11:29+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://clem9669.github.io/blog/tags/github/</loc>
     <lastmod>2020-07-26T19:11:29+02:00</lastmod>
   </url>
   
@@ -48,17 +98,7 @@
   </url>
   
   <url>
-    <loc>https://clem9669.github.io/blog/categories/link/</loc>
-    <lastmod>2020-07-26T19:11:29+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://clem9669.github.io/blog/link/</loc>
-    <lastmod>2020-07-26T19:11:29+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://clem9669.github.io/blog/tags/</loc>
     <lastmod>2020-07-26T19:11:29+02:00</lastmod>
   </url>
   
@@ -83,18 +123,43 @@
   </url>
   
   <url>
-    <loc>https://clem9669.github.io/blog/article/</loc>
-    <lastmod>2020-07-19T00:21:59+02:00</lastmod>
+    <loc>https://clem9669.github.io/blog/tags/gitleak/</loc>
+    <lastmod>2020-07-23T14:23:05+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://clem9669.github.io/blog/author/</loc>
-    <lastmod>2020-07-19T00:21:59+02:00</lastmod>
+    <loc>https://clem9669.github.io/blog/tags/leak/</loc>
+    <lastmod>2020-07-23T14:23:05+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://clem9669.github.io/blog/author/clem/</loc>
-    <lastmod>2020-07-19T00:21:59+02:00</lastmod>
+    <loc>https://clem9669.github.io/blog/article/looting-secret-git/</loc>
+    <lastmod>2020-07-23T14:23:05+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clem9669.github.io/blog/categories/osint/</loc>
+    <lastmod>2020-07-23T14:23:05+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clem9669.github.io/blog/tags/osint/</loc>
+    <lastmod>2020-07-23T14:23:05+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clem9669.github.io/blog/tags/shhgit/</loc>
+    <lastmod>2020-07-23T14:23:05+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clem9669.github.io/blog/tags/tools/</loc>
+    <lastmod>2020-07-23T14:23:05+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clem9669.github.io/blog/tags/trufflehog/</loc>
+    <lastmod>2020-07-23T14:23:05+02:00</lastmod>
   </url>
   
   <url>

@@ -5,10 +5,55 @@
     <link>https://clem9669.github.io/blog/tags/</link>
     <description>Recent content in Tags on Clem9669 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 26 Jul 2020 19:11:29 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2020 23:05:33 +0200</lastBuildDate>
     
 	<atom:link href="https://clem9669.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>beautifier</title>
+      <link>https://clem9669.github.io/blog/tags/beautifier/</link>
+      <pubDate>Sun, 26 Jul 2020 23:05:33 +0200</pubDate>
+      
+      <guid>https://clem9669.github.io/blog/tags/beautifier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>code</title>
+      <link>https://clem9669.github.io/blog/tags/code/</link>
+      <pubDate>Sun, 26 Jul 2020 23:05:33 +0200</pubDate>
+      
+      <guid>https://clem9669.github.io/blog/tags/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://clem9669.github.io/blog/tags/github/</link>
+      <pubDate>Sun, 26 Jul 2020 23:05:33 +0200</pubDate>
+      
+      <guid>https://clem9669.github.io/blog/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>render</title>
+      <link>https://clem9669.github.io/blog/tags/render/</link>
+      <pubDate>Sun, 26 Jul 2020 23:05:33 +0200</pubDate>
+      
+      <guid>https://clem9669.github.io/blog/tags/render/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>snippet</title>
+      <link>https://clem9669.github.io/blog/tags/snippet/</link>
+      <pubDate>Sun, 26 Jul 2020 23:05:33 +0200</pubDate>
+      
+      <guid>https://clem9669.github.io/blog/tags/snippet/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>analytics</title>
@@ -29,15 +74,6 @@
     </item>
     
     <item>
-      <title>github</title>
-      <link>https://clem9669.github.io/blog/tags/github/</link>
-      <pubDate>Sun, 26 Jul 2020 19:11:29 +0200</pubDate>
-      
-      <guid>https://clem9669.github.io/blog/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>tracking</title>
       <link>https://clem9669.github.io/blog/tags/tracking/</link>
       <pubDate>Sun, 26 Jul 2020 19:11:29 +0200</pubDate>
@@ -52,6 +88,60 @@
       <pubDate>Sun, 26 Jul 2020 19:11:29 +0200</pubDate>
       
       <guid>https://clem9669.github.io/blog/tags/views/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gitleak</title>
+      <link>https://clem9669.github.io/blog/tags/gitleak/</link>
+      <pubDate>Thu, 23 Jul 2020 14:23:05 +0200</pubDate>
+      
+      <guid>https://clem9669.github.io/blog/tags/gitleak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>leak</title>
+      <link>https://clem9669.github.io/blog/tags/leak/</link>
+      <pubDate>Thu, 23 Jul 2020 14:23:05 +0200</pubDate>
+      
+      <guid>https://clem9669.github.io/blog/tags/leak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>osint</title>
+      <link>https://clem9669.github.io/blog/tags/osint/</link>
+      <pubDate>Thu, 23 Jul 2020 14:23:05 +0200</pubDate>
+      
+      <guid>https://clem9669.github.io/blog/tags/osint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shhgit</title>
+      <link>https://clem9669.github.io/blog/tags/shhgit/</link>
+      <pubDate>Thu, 23 Jul 2020 14:23:05 +0200</pubDate>
+      
+      <guid>https://clem9669.github.io/blog/tags/shhgit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tools</title>
+      <link>https://clem9669.github.io/blog/tags/tools/</link>
+      <pubDate>Thu, 23 Jul 2020 14:23:05 +0200</pubDate>
+      
+      <guid>https://clem9669.github.io/blog/tags/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>trufflehog</title>
+      <link>https://clem9669.github.io/blog/tags/trufflehog/</link>
+      <pubDate>Thu, 23 Jul 2020 14:23:05 +0200</pubDate>
+      
+      <guid>https://clem9669.github.io/blog/tags/trufflehog/</guid>
       <description></description>
     </item>
     
