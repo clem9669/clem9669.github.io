@@ -1,0 +1,456 @@
+
+  
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="clem9669">
+    <meta name="description" content="Blog">
+    <meta name="keywords" content="blog,personal,search,font awesome,pages,posts,shortcuts">
+    <meta name="generator" content="Hugo 0.74.2" />
+    <title>
+        
+           
+               Cheat Sheet Date &vert; Clem9669 Blog
+           
+        
+    </title>
+    <meta name="description" content="Cheat Sheet Date - Blog">
+    <meta itemprop="name" content="Cheat Sheet Date">
+    <meta itemprop="description" content="Cheat Sheet Date - Blog">
+    <meta property="og:title" content="Cheat Sheet Date">
+    <meta property="og:description" content="Cheat Sheet Date - Blog">
+    <meta property="og:image" content="https://www.gravatar.com/avatar/d06366ae908efb2d1b8af6ffad70a09d?size=200">
+    <meta property="og:url" content="https://clem9669.github.io/blog/article/cheat-sheet-date/">
+    <meta property="og:site_name" content="Clem9669 Blog">
+    <meta property="og:type" content="article">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/blog/favicon-16x16.png">
+<link rel="manifest" href="/blog/site.webmanifest">
+<link rel="mask-icon" href="/blog/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+    
+    <link href="/blog/article/cheat-sheet-date/" rel="alternate" type="application/rss+xml" title="Clem9669 Blog" />
+    <link href="/blog/article/cheat-sheet-date/" rel="feed" type="application/rss+xml" title="Clem9669 Blog" />
+    
+
+    
+
+    <link rel="stylesheet" href="https://clem9669.github.io/blog/theme.css">
+
+    
+
+    
+    
+    
+</head>
+
+<body class="bilberry-hugo-theme">
+
+    
+    <nav>
+
+    <div class="container">
+        <ul class="topnav">
+            
+            
+            <li><a href="https://clem9669.github.io/blog/page/about-bilberry/">About Bilberry</a></li>
+            
+            
+            
+            <li><a href="https://github.com/clem9669/" target="_blank">Github</a></li>
+            
+            
+            
+            <li><a href="https://www.hackthebox.eu/home/users/profile/71810" target="_blank">HTB</a></li>
+            
+            
+            
+            <li><a href="https://lichess.org/@/clem9669" target="_blank">Lichess</a></li>
+            
+            
+        </ul>
+
+        
+        <div id="search-box" class="search">
+            <i class="fas fa-search"></i>
+            <input id="search" type="text" placeholder="Search ...">
+        </div>
+        
+    </div>
+</nav>
+
+
+    
+<header>
+
+    <div class="container">
+        <div class="logo">
+            <a id="siteBaseUrl" href="/blog" class="logo">
+                
+                <img src="https://avatars2.githubusercontent.com/u/18504086?s=460&amp;u=f3087f3b4acc6eb57e0ea8c40a3a14cb7ee2f577&amp;v=4" alt="">
+                
+
+                <span class="overlay"><i class="fa fa-home"></i></span>
+            </a>
+        </div>
+        <div class="titles">
+            <h3 class="title"><a
+                    href="/blog">Clem9669 Blog</a></h3>
+            
+            <span class="subtitle">Yes, it is a blog</span>
+            
+        </div>
+
+        
+
+        
+            <div class="toggler">
+                
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+        </div>
+</header>
+
+
+    <div class="main container">
+        
+     
+    <div class="article-wrapper u-cf single">
+        
+            <a class="bubble" href="https://clem9669.github.io/blog/article/cheat-sheet-date/">
+    <i class="fas fa-fw fa-pencil-alt"></i>
+</a>
+
+<article class="default article">
+    
+
+    <div class="content">
+    <h1 class="article-title"><a href="https://clem9669.github.io/blog/article/cheat-sheet-date/">Cheat Sheet Date</a></h1>
+    <div class="meta">
+        
+        
+        <span class="date moment">2020-07-31</span>
+        
+        
+
+        
+
+        
+        <span class="categories">
+            
+                
+                
+                <a href="https://clem9669.github.io/blog/categories/cheatsheet/">cheatsheet</a>
+                
+            
+        </span>
+        
+
+        
+        <span class="author">
+            
+            
+            <a href="https://clem9669.github.io/blog/author/clem/">Clem</a>
+            
+        </span>
+        
+    </div>
+
+    
+    <p>Review different command to display date and time with a bit of history about epoch time.</p>
+<p>Sometimes printing the date can be a pain due to format, timezone, region.</p>
+<p>Two clocks are present on systems: a hardware clock and a <strong>system clock</strong> which is detailed in this article.</p>
+<p>This blog post will review the different way to print a system date on a linux system.</p>
+<ol>
+<li>Epoch time</li>
+<li>man date</li>
+<li>man timdatectl</li>
+</ol>
+<hr>
+<h1 id="epoch-time">Epoch time</h1>
+<h4 id="what-is-the-unix-time-stamp">What is the unix time stamp?</h4>
+<p>The unix time stamp is a way to track time as a running total of seconds. This count starts at the Unix Epoch on January 1st, 1970 at UTC. Therefore, the unix time stamp is merely the number of seconds between a particular date and the Unix Epoch.</p>
+<p>It should also be pointed out that this point in time technically does not change no matter where you are located on the globe. This is very useful to computer systems for tracking and sorting dated information in dynamic and distributed applications both online and client side.</p>
+<h4 id="what-happens-on-january-19-2038">What happens on January 19, 2038?</h4>
+<p>On this date the Unix Time Stamp will cease to work due to a 32-bit overflow. Before this moment millions of applications will need to either adopt a new convention for time stamps or be migrated to 64-bit systems which will buy the time stamp a &ldquo;bit&rdquo; 😂 more time.</p>
+<p>At 03:33:20 UTC on Wednesday, 18 May 2033, the Unix time value will equal 2000000000 seconds.</p>
+<h4 id="hardware-clock">Hardware clock</h4>
+<p>The hardware clock (a.k.a. the Real Time Clock (RTC) or CMOS clock) stores the values of: Year, Month, Day, Hour, Minute, and Seconds. Only 2016, or later, UEFI firmware has the ability to store the timezone, and whether DST is used.</p>
+<h4 id="system-clock">System clock</h4>
+<p>The system clock (a.k.a. the software clock) keeps track of: time, time zone, and DST if applicable. It is calculated by the Linux kernel as the number of seconds since midnight January 1st 1970, UTC. The initial value of the system clock is calculated from the hardware clock, dependent on the contents of /etc/adjtime. After boot-up has completed, the system clock runs independently of the hardware clock. The Linux kernel keeps track of the system clock by counting timer interrupts.</p>
+<hr>
+<h1 id="man-date">man date</h1>
+<blockquote>
+<p>The <strong>date</strong> is a command for printing or setting the system date and time.</p>
+</blockquote>
+<h4 id="key-command">Key command:</h4>
+<ul>
+<li>Print date for UTC</li>
+</ul>
+<pre><code>$date -u 
+Fri 31 Jul 18:27:51 UTC 2020
+</code></pre><ul>
+<li>Print date in a format that you like</li>
+</ul>
+<pre><code>$date +%d-%m-%Y/%H:%M:%S
+31-07-2020/20:28:31
+
+$date +'%H:%M:%S %d-%m-%Y'
+20:44:15 31-07-2020
+</code></pre><ul>
+<li>Print date as in email (RFC 3339)</li>
+</ul>
+<pre><code>$date -R
+Fri, 31 Jul 2020 20:40:08 +0200
+</code></pre><ul>
+<li>Convert seconds since the epoch (1970-01-01 UTC) to a date</li>
+</ul>
+<pre><code>$ date --date='@2147483647'
+Tue 19 Jan 04:14:07 CET 2038
+
+$date +%s
+1596221384
+</code></pre><ul>
+<li>Show the local time for 9AM next Friday on the west coast of the US</li>
+</ul>
+<pre><code>$ date --date='TZ=&quot;America/Los_Angeles&quot; 09:00 next Fri'
+Fri  7 Aug 18:00:00 CEST 2020
+</code></pre><hr>
+<h1 id="man-timedatectl">man timedatectl</h1>
+<blockquote>
+<p>The <strong>timedatectl</strong> is a command for controlling the system time and date.</p>
+</blockquote>
+<ul>
+<li>Read clock</li>
+</ul>
+<pre><code>$ timedatectl
+               Local time: Sat 2020-08-22 17:06:26 CEST
+           Universal time: Sat 2020-08-22 15:06:26 UTC 
+                 RTC time: Wed 2020-07-08 22:20:55     
+                Time zone: Europe/Berlin (CEST, +0200) 
+System clock synchronized: no                          
+              NTP service: n/a                         
+          RTC in local TZ: no 
+</code></pre><ul>
+<li>Set system clock directly:</li>
+</ul>
+<pre><code># timedatectl set-time &quot;yyyy-MM-dd hh:mm:ss&quot;
+
+# timedatectl set-time &quot;2014-05-26 11:13:54&quot;
+</code></pre><h4 id="time-zone">Time zone</h4>
+<ul>
+<li>To check the current zone defined for the system:</li>
+</ul>
+<pre><code>$ timedatectl status
+               Local time: Sat 2020-08-22 17:06:26 CEST
+           Universal time: Sat 2020-08-22 15:06:26 UTC 
+                 RTC time: Wed 2020-07-08 22:20:55     
+                Time zone: Europe/Berlin (CEST, +0200) 
+System clock synchronized: no                          
+              NTP service: n/a                         
+          RTC in local TZ: no 
+</code></pre><ul>
+<li>To list available zones:</li>
+</ul>
+<pre><code>$ timedatectl list-timezones
+</code></pre><ul>
+<li>To set your time zone:</li>
+</ul>
+<pre><code># timedatectl set-timezone Canada/Eastern
+</code></pre><p>This will create an /etc/localtime symlink that points to a zoneinfo file under /usr/share/zoneinfo/. In case you choose to create the link manually (for example during chroot where timedatectl will not work), keep in mind that it must be a symbolic link, as specified in archlinux(7):</p>
+<pre><code># ln -sf /usr/share/zoneinfo/Zone/SubZone /etc/localtime
+</code></pre><p>Tip: The time zone can also be selected interactively with <strong>tzselect</strong>.</p>
+    
+</div>
+
+    
+<div class="footer">
+
+
+    
+        <div class="tags">
+            <i class="fa fa-tags"></i>
+            <div class="links">
+                
+                    
+                    
+                    <a href="https://clem9669.github.io/blog/tags/date/">date</a>
+                    
+                
+                    
+                    
+                    <a href="https://clem9669.github.io/blog/tags/cheatsheet/">cheatsheet</a>
+                    
+                
+                    
+                    
+                    <a href="https://clem9669.github.io/blog/tags/man/">man</a>
+                    
+                
+            </div>
+        </div>
+    
+
+    
+</div>
+
+</article>
+
+        
+    </div>
+
+    
+        <div id="comments-container">
+            
+            
+
+        </div>
+    
+
+     
+
+    </div>
+
+    
+<footer>
+    <div class="container">
+
+        
+        <div class="recent-posts">
+            <strong>Latest posts</strong>
+            <ul>
+                
+                <li>
+                    <a href="https://clem9669.github.io/blog/article/cheat-sheet-date/">Cheat Sheet Date</a>
+                </li>
+                
+                <li>
+                    <a href="https://clem9669.github.io/blog/article/temporary-emails/">✉️✉️✉️ Temporary Emails ✉️✉️✉️</a>
+                </li>
+                
+                <li>
+                    <a href="https://clem9669.github.io/blog/article/carbon-app/">Carbon App</a>
+                </li>
+                
+            </ul>
+        </div>
+        
+
+        
+        <div class="categories">
+            <a href="/blog/categories/"><strong>Categories</strong></a>
+            <ul>
+                
+                <li>
+                    <a href="/blog/categories/link">Link
+                        (3)</a>
+                </li>
+                
+                <li>
+                    <a href="/blog/categories/music">Music
+                        (2)</a>
+                </li>
+                
+                <li>
+                    <a href="/blog/categories/privacy">Privacy
+                        (2)</a>
+                </li>
+                
+                <li>
+                    <a href="/blog/categories/cheatsheet">Cheatsheet
+                        (1)</a>
+                </li>
+                
+                <li>
+                    <a href="/blog/categories/code">Code
+                        (1)</a>
+                </li>
+                
+                <li>
+                    <a href="/blog/categories/holidays">Holidays
+                        (1)</a>
+                </li>
+                
+            </ul>
+        </div>
+        
+
+        <div class="right">
+            
+            <div class="external-profiles">
+                <strong>Social media</strong>
+
+                
+                <a href="mailto:Y2xlbTk2NjkyQHByb3Rvbm1haWwuY2gK" target="_blank"><i class="fas fa-at"></i></a>
+                
+                <a href="https://github.com/clem9669" target="_blank"><i class="fab fa-github"></i></a>
+                
+                <a href="https://www.hackthebox.eu/home/users/profile/71810" target="_blank"><i class="fas fa-h-square"></i></a>
+                
+                <a href="https://lichess.org/@/clem9669" target="_blank"><i class="fas fa-chess-knight"></i></a>
+                
+            </div>
+            
+
+            
+        </div>
+    </div>
+</footer>
+
+
+<div class="credits">
+    <div class="container">
+        <div class="copyright">
+            <a href="https://exmaple.org" target="_blank">
+                &copy;
+                
+                2020
+                
+                by clem
+            </a>
+            
+        </div>
+        <div class="author">
+            <a href="https://github.com/Lednerb/bilberry-hugo-theme"
+                target="_blank">Bzaerilberry Hugo Theme</a>
+        </div>
+    </div>
+</div>
+
+
+    
+
+    
+
+
+    <script type="text/javascript" src="https://clem9669.github.io/blog/theme.js"></script>
+
+    
+    
+    
+
+    
+    <div id="activate-algolia-search" class="hidden">
+  <input type="hidden" id="algolia-search-appId" value="Y2C4RWMPXW">
+  <input type="hidden" id="algolia-search-apiKey" value="50ea7f8c41c0ad233926e0be2b769ed1">
+  <input type="hidden" id="algolia-search-indexName" value="default-content">
+  <input type="hidden" id="algolia-search-noSearchResults" value="Nothing found.">
+
+  
+  <input type="hidden" id="algolia-search-currentLanguageOnly">
+  
+</div>
+
+    
+
+
+</body>
+
+</html>
