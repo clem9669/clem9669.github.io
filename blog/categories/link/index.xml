@@ -5,10 +5,19 @@
     <link>https://clem9669.github.io/blog/categories/link/</link>
     <description>Recent content in link on Clem9669 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 27 Jul 2020 14:40:13 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2020 17:03:23 +0200</lastBuildDate>
     
 	<atom:link href="https://clem9669.github.io/blog/categories/link/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Art of Mac Malware</title>
+      <link>https://clem9669.github.io/blog/link/the-art-of-mac-malware/</link>
+      <pubDate>Mon, 24 Aug 2020 17:03:23 +0200</pubDate>
+      
+      <guid>https://clem9669.github.io/blog/link/the-art-of-mac-malware/</guid>
+      <description>Complet book about macOS malware written by Patick Wardle</description>
+    </item>
     
     <item>
       <title>✉️✉️✉️ Temporary Emails ✉️✉️✉️</title>
