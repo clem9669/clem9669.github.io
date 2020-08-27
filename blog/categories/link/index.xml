@@ -5,10 +5,21 @@
     <link>https://clem9669.github.io/blog/categories/link/</link>
     <description>Recent content in link on Clem9669 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 24 Aug 2020 17:03:23 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2020 13:38:12 +0200</lastBuildDate>
     
 	<atom:link href="https://clem9669.github.io/blog/categories/link/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Webhook Site</title>
+      <link>https://clem9669.github.io/blog/link/webhook-site/</link>
+      <pubDate>Thu, 27 Aug 2020 13:38:12 +0200</pubDate>
+      
+      <guid>https://clem9669.github.io/blog/link/webhook-site/</guid>
+      <description>&lt;p&gt;Get a unique, random URL that you can use to&lt;/p&gt;
+&lt;p&gt;test and debug Webhooks and HTTP requests&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/fredsted/webhook.site&#34;&gt;https://github.com/fredsted/webhook.site&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>The Art of Mac Malware</title>
@@ -16,7 +27,9 @@
       <pubDate>Mon, 24 Aug 2020 17:03:23 +0200</pubDate>
       
       <guid>https://clem9669.github.io/blog/link/the-art-of-mac-malware/</guid>
-      <description>Complet book about macOS malware written by Patick Wardle</description>
+      <description>&lt;p&gt;Complet book about macOS malware&lt;/p&gt;
+&lt;p&gt;written by Patick Wardle&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://taomm.org/&#34;&gt;https://taomm.org/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
