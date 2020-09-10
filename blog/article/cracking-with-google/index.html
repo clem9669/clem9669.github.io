@@ -1,0 +1,454 @@
+
+  
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="clem9669">
+    <meta name="description" content="Blog">
+    <meta name="keywords" content="blog,personal,search,font awesome,pages,posts,shortcuts">
+    <meta name="generator" content="Hugo 0.74.3" />
+    <title>
+        
+           
+               Cracking With Google servers &vert; Clem9669 Blog
+           
+        
+    </title>
+    <meta name="description" content="Cracking With Google servers - Blog">
+    <meta itemprop="name" content="Cracking With Google servers">
+    <meta itemprop="description" content="Cracking With Google servers - Blog">
+    <meta property="og:title" content="Cracking With Google servers">
+    <meta property="og:description" content="Cracking With Google servers - Blog">
+    <meta property="og:image" content="https://www.gravatar.com/avatar/d06366ae908efb2d1b8af6ffad70a09d?size=200">
+    <meta property="og:url" content="https://clem9669.github.io/blog/article/cracking-with-google/">
+    <meta property="og:site_name" content="Clem9669 Blog">
+    <meta property="og:type" content="article">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/blog/favicon-16x16.png">
+<link rel="manifest" href="/blog/site.webmanifest">
+<link rel="mask-icon" href="/blog/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+    
+    <link href="/blog/article/cracking-with-google/" rel="alternate" type="application/rss+xml" title="Clem9669 Blog" />
+    <link href="/blog/article/cracking-with-google/" rel="feed" type="application/rss+xml" title="Clem9669 Blog" />
+    
+
+    
+
+    <link rel="stylesheet" href="https://clem9669.github.io/blog/theme.css">
+
+    
+
+    
+    
+    
+</head>
+
+<body class="bilberry-hugo-theme">
+
+    
+    <nav>
+
+    <div class="container">
+        <ul class="topnav">
+            
+            
+            <li><a href="https://clem9669.github.io/blog/page/about-bilberry/">About Bilberry</a></li>
+            
+            
+            
+            <li><a href="https://github.com/clem9669/" target="_blank">Github</a></li>
+            
+            
+            
+            <li><a href="https://www.hackthebox.eu/home/users/profile/71810" target="_blank">HTB</a></li>
+            
+            
+            
+            <li><a href="https://lichess.org/@/clem9669" target="_blank">Lichess</a></li>
+            
+            
+        </ul>
+
+        
+        <div id="search-box" class="search">
+            <i class="fas fa-search"></i>
+            <input id="search" type="text" placeholder="Search ...">
+        </div>
+        
+    </div>
+</nav>
+
+
+    
+<header>
+
+    <div class="container">
+        <div class="logo">
+            <a id="siteBaseUrl" href="/blog" class="logo">
+                
+                <img src="https://avatars2.githubusercontent.com/u/18504086?s=460&amp;u=f3087f3b4acc6eb57e0ea8c40a3a14cb7ee2f577&amp;v=4" alt="">
+                
+
+                <span class="overlay"><i class="fa fa-home"></i></span>
+            </a>
+        </div>
+        <div class="titles">
+            <h3 class="title"><a
+                    href="/blog">Clem9669 Blog</a></h3>
+            
+            <span class="subtitle">Yes, it is a blog</span>
+            
+        </div>
+
+        
+
+        
+            <div class="toggler">
+                
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+        </div>
+</header>
+
+
+    <div class="main container">
+        
+     
+    <div class="article-wrapper u-cf single">
+        
+            <a class="bubble" href="https://clem9669.github.io/blog/article/cracking-with-google/">
+    <i class="fas fa-fw fa-pencil-alt"></i>
+</a>
+
+<article class="default article">
+    
+
+    <div class="content">
+    <h1 class="article-title"><a href="https://clem9669.github.io/blog/article/cracking-with-google/">Cracking With Google servers</a></h1>
+    <div class="meta">
+        
+        
+        <span class="date moment">2020-09-10</span>
+        
+        
+
+        
+
+        
+        <span class="categories">
+            
+                
+                
+                <a href="https://clem9669.github.io/blog/categories/cracking/">cracking</a>
+                
+            
+        </span>
+        
+
+        
+        <span class="author">
+            
+            
+            <a href="https://clem9669.github.io/blog/author/clem/">Clem</a>
+            
+        </span>
+        
+    </div>
+
+    
+    <p>From this github <a href="https://github.com/mxrch/penglab,">https://github.com/mxrch/penglab,</a> it learnt that it is possible to crack password on Google infrastructure.</p>
+<pre><code>x100 faster than in VM
+</code></pre>
+<p>The github <a href="https://github.com/mxrch/penglab">https://github.com/mxrch/penglab</a> explain how to abuse of Google Colab for fun and profit.</p>
+<hr>
+<h2 id="cheat-sheet-command">Cheat-sheet command</h2>
+<p>GOTO: <a href="https://colab.research.google.com/github/mxrch/penglab/blob/master/penglab.ipynb">https://colab.research.google.com/github/mxrch/penglab/blob/master/penglab.ipynb</a></p>
+<ul>
+<li>Set <em>hashcat</em> to TRUE</li>
+<li>Set <em>rockyou</em> to TRUE</li>
+<li>Lookup for module in <a href="https://hashcat.net/wiki/doku.php?id=example_hashes">hashcat exemple</a></li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">!wget https://raw.githubusercontent.com/hashcat/hashcat/master/rules/InsidePro-PasswordsPro.rule
+!ls -la
+!echo <span style="color:#e6db74">&#39;HASH_here&#39;</span> &gt;&gt; hash
+!hashcat -m MODULE hash wordlists/rockyou.txt -r InsidePro-PasswordsPro.rule -O
+</code></pre></div><hr>
+<h1 id="what-is-it-">What is it ?</h1>
+<p>Penglab is a ready-to-install setup on Google Colab for cracking hashes with an incredible power, really useful for CTFs. (See benchmarks below.)</p>
+<p>It installs by default :</p>
+<ul>
+<li>Hashcat</li>
+<li>John</li>
+<li>Hydra</li>
+<li>SSH (with ngrok)</li>
+</ul>
+<p>And now, it can also :</p>
+<ul>
+<li>Launch an integrated shell</li>
+<li>Download the wordlists Rockyou and HashesOrg2019 quickly !</li>
+</ul>
+<p>You only need a Google Account to use Google Colab, and to use ngrok for SSH (optional).</p>
+<h2 id="how-to-use-it-">How to use it ?</h2>
+<ol>
+<li>Go on : <a href="https://colab.research.google.com/github/mxrch/penglab/blob/master/penglab.ipynb">https://colab.research.google.com/github/mxrch/penglab/blob/master/penglab.ipynb</a></li>
+<li>Select &ldquo;Runtime&rdquo;, &ldquo;Change runtime type&rdquo;, and set &ldquo;Hardware accelerator&rdquo; to GPU.</li>
+<li>Change the config by setting &ldquo;True&rdquo; at tools you want to install.</li>
+<li>Select &ldquo;Runtime&rdquo; and <strong>&ldquo;Run all&rdquo;</strong> !</li>
+</ol>
+<p><img src="https://cloud.screenpresso.com/aZURb/2020-09-10_11h26_39.png" alt=""></p>
+<p><img src="https://cloud.screenpresso.com/JF0uc/2020-09-10_11h41_56.png" alt=""></p>
+<h2 id="benchmark">Benchmark</h2>
+<p>From what i have tested it is 100 times faster than in my VM.</p>
+<h3 id="hashcat-benchmark-">Hashcat Benchmark :</h3>
+<pre><code>====================
+* Device #1: Tesla P100-PCIE-16GB, 16017/16280 MB, 56MCU
+
+OpenCL API (OpenCL 1.2 CUDA 10.1.152) - Platform #1 [NVIDIA Corporation]
+========================================================================
+* Device #2: Tesla P100-PCIE-16GB, skipped
+
+Benchmark relevant options:
+===========================
+* --optimized-kernel-enable
+
+Minimum password length supported by kernel: 0
+Maximum password length supported by kernel: 55
+
+Hashmode: 0 - MD5
+
+Speed.#1.........: 27008.0 MH/s (69.17ms) @ Accel:64 Loops:512 Thr:1024 Vec:8
+
+Minimum password length supported by kernel: 0
+Maximum password length supported by kernel: 55
+
+Hashmode: 100 - SHA1
+
+Speed.#1.........:  9590.3 MH/s (48.61ms) @ Accel:8 Loops:1024 Thr:1024 Vec:1
+
+Minimum password length supported by kernel: 0
+Maximum password length supported by kernel: 55
+</code></pre>
+<h3 id="speedtest-">Speedtest :</h3>
+<pre><code>Testing from Google Cloud (35.203.136.151)...
+Retrieving speedtest.net server list...
+Selecting best server based on ping...
+Hosted by KamaTera INC (Santa Clara, CA) [11.95 km]: 28.346 ms
+Testing download speed................................................................................
+Download: 2196.68 Mbit/s
+Testing upload speed......................................................................................................
+Upload: 3.87 Mbit/s
+</code></pre>
+    
+</div>
+
+    
+<div class="footer">
+
+
+    
+        <div class="tags">
+            <i class="fa fa-tags"></i>
+            <div class="links">
+                
+                    
+                    
+                    <a href="https://clem9669.github.io/blog/tags/cracking/">cracking</a>
+                    
+                
+                    
+                    
+                    <a href="https://clem9669.github.io/blog/tags/google/">google</a>
+                    
+                
+                    
+                    
+                    <a href="https://clem9669.github.io/blog/tags/penglab/">penglab</a>
+                    
+                
+                    
+                    
+                    <a href="https://clem9669.github.io/blog/tags/ipynb/">ipynb</a>
+                    
+                
+                    
+                    
+                    <a href="https://clem9669.github.io/blog/tags/hashcat/">hashcat</a>
+                    
+                
+                    
+                    
+                    <a href="https://clem9669.github.io/blog/tags/john/">john</a>
+                    
+                
+            </div>
+        </div>
+    
+
+    
+</div>
+
+</article>
+
+        
+    </div>
+
+    
+        <div id="comments-container">
+            
+            
+
+        </div>
+    
+
+     
+
+    </div>
+
+    
+<footer>
+    <div class="container">
+
+        
+        <div class="recent-posts">
+            <strong>Latest posts</strong>
+            <ul>
+                
+                <li>
+                    <a href="https://clem9669.github.io/blog/article/cracking-with-google/">Cracking With Google servers</a>
+                </li>
+                
+                <li>
+                    <a href="https://clem9669.github.io/blog/link/webhook-site/">Webhook Site</a>
+                </li>
+                
+                <li>
+                    <a href="https://clem9669.github.io/blog/link/the-art-of-mac-malware/">The Art of Mac Malware</a>
+                </li>
+                
+                <li>
+                    <a href="https://clem9669.github.io/blog/article/cheat-sheet-keyboard/">Cheat Sheet Keyboard</a>
+                </li>
+                
+            </ul>
+        </div>
+        
+
+        
+        <div class="categories">
+            <a href="/blog/categories/"><strong>Categories</strong></a>
+            <ul>
+                
+                <li>
+                    <a href="/blog/categories/link">Link
+                        (5)</a>
+                </li>
+                
+                <li>
+                    <a href="/blog/categories/cheatsheet">Cheatsheet
+                        (2)</a>
+                </li>
+                
+                <li>
+                    <a href="/blog/categories/music">Music
+                        (2)</a>
+                </li>
+                
+                <li>
+                    <a href="/blog/categories/privacy">Privacy
+                        (2)</a>
+                </li>
+                
+                <li>
+                    <a href="/blog/categories/code">Code
+                        (1)</a>
+                </li>
+                
+                <li>
+                    <a href="/blog/categories/cracking">Cracking
+                        (1)</a>
+                </li>
+                
+            </ul>
+        </div>
+        
+
+        <div class="right">
+            
+            <div class="external-profiles">
+                <strong>Social media</strong>
+
+                
+                <a href="mailto:Y2xlbTk2NjkyQHByb3Rvbm1haWwuY2gK" target="_blank"><i class="fas fa-at"></i></a>
+                
+                <a href="https://github.com/clem9669" target="_blank"><i class="fab fa-github"></i></a>
+                
+                <a href="https://www.hackthebox.eu/home/users/profile/71810" target="_blank"><i class="fas fa-h-square"></i></a>
+                
+                <a href="https://lichess.org/@/clem9669" target="_blank"><i class="fas fa-chess-knight"></i></a>
+                
+            </div>
+            
+
+            
+        </div>
+    </div>
+</footer>
+
+
+<div class="credits">
+    <div class="container">
+        <div class="copyright">
+            <a href="https://exmaple.org" target="_blank">
+                &copy;
+                
+                2020
+                
+                by clem
+            </a>
+            
+        </div>
+        <div class="author">
+            <a href="https://github.com/Lednerb/bilberry-hugo-theme"
+                target="_blank">Bzaerilberry Hugo Theme</a>
+        </div>
+    </div>
+</div>
+
+
+    
+
+    
+
+
+    <script type="text/javascript" src="https://clem9669.github.io/blog/theme.js"></script>
+
+    
+    
+    
+
+    
+    <div id="activate-algolia-search" class="hidden">
+  <input type="hidden" id="algolia-search-appId" value="Y2C4RWMPXW">
+  <input type="hidden" id="algolia-search-apiKey" value="50ea7f8c41c0ad233926e0be2b769ed1">
+  <input type="hidden" id="algolia-search-indexName" value="default-content">
+  <input type="hidden" id="algolia-search-noSearchResults" value="Nothing found.">
+
+  
+  <input type="hidden" id="algolia-search-currentLanguageOnly">
+  
+</div>
+
+    
+
+
+</body>
+
+</html>
