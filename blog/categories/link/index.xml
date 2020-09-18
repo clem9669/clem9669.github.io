@@ -5,10 +5,20 @@
     <link>https://clem9669.github.io/blog/categories/link/</link>
     <description>Recent content in link on Clem9669 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 27 Aug 2020 13:38:12 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2020 14:07:56 +0200</lastBuildDate>
     
 	<atom:link href="https://clem9669.github.io/blog/categories/link/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Malware Bazaar</title>
+      <link>https://clem9669.github.io/blog/link/malware-bazaar/</link>
+      <pubDate>Fri, 18 Sep 2020 14:07:56 +0200</pubDate>
+      
+      <guid>https://clem9669.github.io/blog/link/malware-bazaar/</guid>
+      <description>&lt;p&gt;Collect and share malware samples&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bazaar.abuse.ch/&#34;&gt;https://bazaar.abuse.ch/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Webhook Site</title>

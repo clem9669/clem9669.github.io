@@ -5,10 +5,19 @@
     <link>https://clem9669.github.io/blog/categories/</link>
     <description>Recent content in Categories on Clem9669 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 10 Sep 2020 11:28:57 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2020 14:07:56 +0200</lastBuildDate>
     
 	<atom:link href="https://clem9669.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>link</title>
+      <link>https://clem9669.github.io/blog/categories/link/</link>
+      <pubDate>Fri, 18 Sep 2020 14:07:56 +0200</pubDate>
+      
+      <guid>https://clem9669.github.io/blog/categories/link/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>cracking</title>
@@ -16,15 +25,6 @@
       <pubDate>Thu, 10 Sep 2020 11:28:57 +0200</pubDate>
       
       <guid>https://clem9669.github.io/blog/categories/cracking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>link</title>
-      <link>https://clem9669.github.io/blog/categories/link/</link>
-      <pubDate>Thu, 27 Aug 2020 13:38:12 +0200</pubDate>
-      
-      <guid>https://clem9669.github.io/blog/categories/link/</guid>
       <description></description>
     </item>
     
