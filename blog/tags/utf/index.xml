@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UTF on Clem9669 Blog</title>
+    <link>https://clem9669.github.io/blog/tags/utf/</link>
+    <description>Recent content in UTF on Clem9669 Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 05 Jan 2021 14:58:20 +0100</lastBuildDate><atom:link href="https://clem9669.github.io/blog/tags/utf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Encoding</title>
+      <link>https://clem9669.github.io/blog/link/encoding/</link>
+      <pubDate>Tue, 05 Jan 2021 14:58:20 +0100</pubDate>
+      
+      <guid>https://clem9669.github.io/blog/link/encoding/</guid>
+      <description>&lt;p&gt;Getting a better comprehension of encoding&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
