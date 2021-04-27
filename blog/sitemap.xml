@@ -3,17 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://clem9669.github.io/blog/tags/bit/</loc>
-    <lastmod>2021-01-05T14:58:20+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://clem9669.github.io/blog/categories/</loc>
-    <lastmod>2021-01-05T14:58:20+01:00</lastmod>
+    <lastmod>2021-04-27T10:45:33+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://clem9669.github.io/blog/</loc>
+    <lastmod>2021-04-27T10:45:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clem9669.github.io/blog/tags/leak/</loc>
+    <lastmod>2021-04-27T10:45:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clem9669.github.io/blog/categories/link/</loc>
+    <lastmod>2021-04-27T10:45:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clem9669.github.io/blog/link/</loc>
+    <lastmod>2021-04-27T10:45:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clem9669.github.io/blog/tags/onion/</loc>
+    <lastmod>2021-04-27T10:45:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clem9669.github.io/blog/tags/password/</loc>
+    <lastmod>2021-04-27T10:45:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clem9669.github.io/blog/tags/pwndb/</loc>
+    <lastmod>2021-04-27T10:45:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clem9669.github.io/blog/link/pwndb/</loc>
+    <lastmod>2021-04-27T10:45:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clem9669.github.io/blog/tags/</loc>
+    <lastmod>2021-04-27T10:45:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://clem9669.github.io/blog/tags/bit/</loc>
     <lastmod>2021-01-05T14:58:20+01:00</lastmod>
   </url>
   
@@ -24,21 +64,6 @@
   
   <url>
     <loc>https://clem9669.github.io/blog/tags/encoding/</loc>
-    <lastmod>2021-01-05T14:58:20+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://clem9669.github.io/blog/categories/link/</loc>
-    <lastmod>2021-01-05T14:58:20+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://clem9669.github.io/blog/link/</loc>
-    <lastmod>2021-01-05T14:58:20+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://clem9669.github.io/blog/tags/</loc>
     <lastmod>2021-01-05T14:58:20+01:00</lastmod>
   </url>
   
@@ -314,11 +339,6 @@
   
   <url>
     <loc>https://clem9669.github.io/blog/tags/gitleak/</loc>
-    <lastmod>2020-07-23T14:23:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://clem9669.github.io/blog/tags/leak/</loc>
     <lastmod>2020-07-23T14:23:05+02:00</lastmod>
   </url>
   

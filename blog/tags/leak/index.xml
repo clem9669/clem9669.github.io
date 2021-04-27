@@ -5,7 +5,17 @@
     <link>https://clem9669.github.io/blog/tags/leak/</link>
     <description>Recent content in leak on Clem9669 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 23 Jul 2020 14:23:05 +0200</lastBuildDate><atom:link href="https://clem9669.github.io/blog/tags/leak/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Apr 2021 10:45:33 +0200</lastBuildDate><atom:link href="https://clem9669.github.io/blog/tags/leak/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pwndb</title>
+      <link>https://clem9669.github.io/blog/link/pwndb/</link>
+      <pubDate>Tue, 27 Apr 2021 10:45:33 +0200</pubDate>
+      
+      <guid>https://clem9669.github.io/blog/link/pwndb/</guid>
+      <description>&lt;p&gt;Email &amp;amp; password from 1.4 billion breach compilation.&lt;/p&gt;
+&lt;p&gt;Clear web link: &lt;a href=&#34;https://pwndb2am4tzkvold.onion.ws/&#34;&gt;https://pwndb2am4tzkvold.onion.ws/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Looting Secret in GIT</title>
       <link>https://clem9669.github.io/blog/article/looting-secret-git/</link>
